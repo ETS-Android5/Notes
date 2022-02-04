@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-sw720dp-land-v19/values-sw720dp-land-v19.xml",
+            "map": [
+                {
+                    "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/values-sw720dp-land-v19/dimens.xml",
+                    "from": {
+                        "startLines": "25,23",
+                        "startColumns": "2,2",
+                        "startOffsets": "976,927",
+                        "endColumns": "56,47",
+                        "endOffsets": "1030,972"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,114",
+                        "endColumns": "58,49",
+                        "endOffsets": "109,159"
+                    }
+                }
+            ]
+        }
+    ]
+}

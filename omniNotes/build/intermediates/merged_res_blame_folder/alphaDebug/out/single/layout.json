@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/note_layout_expanded.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/note_layout_expanded.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/settings_font_size_item.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/settings_font_size_item.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/dialog_remove_checklist_layout.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/dialog_remove_checklist_layout.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/fragment_detail_attachments.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/fragment_detail_attachments.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/widget_layout_list.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/widget_layout_list.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/fragment_list.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/fragment_list.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/note_layout.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/note_layout.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/attachment_dialog.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/attachment_dialog.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/sublime_picker.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/sublime_picker.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/activity_widget_configuration.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/activity_widget_configuration.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/activity_password.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/activity_password.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/password_buttons.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/password_buttons.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/crouton_handle.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/crouton_handle.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/widget_layout_toolbar.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/widget_layout_toolbar.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/dialog_backup_layout.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/dialog_backup_layout.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/widget_layout_small.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/widget_layout_small.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/popup_sketch_stroke.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/popup_sketch_stroke.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/activity_gallery.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/activity_gallery.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/dialog_location.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/dialog_location.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/popup_sketch_eraser.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/popup_sketch_eraser.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/webview.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/webview.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/activity_category.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/activity_category.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/activity_changelog.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/activity_changelog.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/gridview_item.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/gridview_item.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/rate_app_dialog_layout.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/rate_app_dialog_layout.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/fragment_navigation_drawer.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/fragment_navigation_drawer.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/drawer_list_item.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/drawer_list_item.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/activity_stats.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/activity_stats.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/fragment_sketch.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/fragment_sketch.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/simple_text_layout.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/simple_text_layout.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/image_and_text_item.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/image_and_text_item.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/password_reset_dialog_layout.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/password_reset_dialog_layout.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/password_request_dialog_layout.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/password_request_dialog_layout.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/activity_stats_note.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/activity_stats_note.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/fab.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/fab.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/fragment_detail.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/fragment_detail.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/toolbar.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/toolbar.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/drawer_category_list_header.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/drawer_category_list_header.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/row.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/row.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/undobar.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/undobar.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/activity_note_infos.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/activity_note_infos.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/note_layout_widget.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/note_layout_widget.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/activity_settings.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/intro_slide.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/intro_slide.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/activity_about.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/activity_about.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/fragment_detail_content.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/fragment_detail_content.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/widget_layout.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/widget_layout.xml"
+    },
+    {
+        "merged": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/stripped.dir/layout/drawer_category_list_footer.xml",
+        "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/layout/drawer_category_list_footer.xml"
+    }
+]

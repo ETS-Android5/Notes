@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "it.feio.android.omninotes.alpha.test",
+  "variantName": "processAlphaDebugAndroidTestResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 0,
+      "versionName": "",
+      "outputFile": "omniNotes-alpha-debug-androidTest.apk"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+it/feio/android/omninotes/validateCreate1Note.java
+ it.feio.android.omninotes.validateCreate1Note
+ it.feio.android.omninotes.validateCreate1Note$1
+it/feio/android/omninotes/test/BuildConfig.java
+ it.feio.android.omninotes.test.BuildConfig
+it/feio/android/omninotes/validateCreateChecklist.java
+ it.feio.android.omninotes.validateCreateChecklist
+ it.feio.android.omninotes.validateCreateChecklist$1
+it/feio/android/omninotes/validateKeyEnableSwipeToTrash.java
+ it.feio.android.omninotes.validateKeyEnableSwipeToTrash
+ it.feio.android.omninotes.validateKeyEnableSwipeToTrash$1
+it/feio/android/omninotes/validateTrashRestore.java
+ it.feio.android.omninotes.validateTrashRestore
+ it.feio.android.omninotes.validateTrashRestore$1

@@ -1,0 +1,481 @@
+it/feio/android/omninotes/models/Attachment.java
+ it.feio.android.omninotes.models.Attachment
+ it.feio.android.omninotes.models.Attachment$1
+it/feio/android/omninotes/databinding/DialogLocationBinding.java
+ it.feio.android.omninotes.databinding.DialogLocationBinding
+it/feio/android/omninotes/SketchFragment.java
+ it.feio.android.omninotes.SketchFragment
+ it.feio.android.omninotes.SketchFragment$1
+ it.feio.android.omninotes.SketchFragment$2
+it/feio/android/omninotes/async/notes/SaveNoteTask.java
+ it.feio.android.omninotes.async.notes.SaveNoteTask
+it/feio/android/omninotes/db/SqlParser.java
+ it.feio.android.omninotes.db.SqlParser
+it/feio/android/omninotes/utils/Constants.java
+ it.feio.android.omninotes.utils.Constants
+it/feio/android/omninotes/async/bus/NotesLoadedEvent.java
+ it.feio.android.omninotes.async.bus.NotesLoadedEvent
+it/feio/android/omninotes/exceptions/unchecked/ExternalDirectoryCreationException.java
+ it.feio.android.omninotes.exceptions.unchecked.ExternalDirectoryCreationException
+it/feio/android/omninotes/databinding/WidgetLayoutListBinding.java
+ it.feio.android.omninotes.databinding.WidgetLayoutListBinding
+it/feio/android/omninotes/helpers/GeocodeProviderBaseFactory.java
+ it.feio.android.omninotes.helpers.GeocodeProviderBaseFactory
+it/feio/android/omninotes/databinding/FabBinding.java
+ it.feio.android.omninotes.databinding.FabBinding
+it/feio/android/omninotes/receiver/BootCompleteReceiver.java
+ it.feio.android.omninotes.receiver.BootCompleteReceiver
+it/feio/android/omninotes/async/notes/NoteProcessorArchive.java
+ it.feio.android.omninotes.async.notes.NoteProcessorArchive
+it/feio/android/omninotes/databinding/NoteLayoutWidgetBinding.java
+ it.feio.android.omninotes.databinding.NoteLayoutWidgetBinding
+it/feio/android/omninotes/databinding/ActivityStatsNoteBinding.java
+ it.feio.android.omninotes.databinding.ActivityStatsNoteBinding
+it/feio/android/omninotes/databinding/ActivityCategoryBinding.java
+ it.feio.android.omninotes.databinding.ActivityCategoryBinding
+it/feio/android/omninotes/intro/IntroSlide6.java
+ it.feio.android.omninotes.intro.IntroSlide6
+it/feio/android/omninotes/databinding/PopupSketchStrokeBinding.java
+ it.feio.android.omninotes.databinding.PopupSketchStrokeBinding
+it/feio/android/omninotes/utils/AssetUtils.java
+ it.feio.android.omninotes.utils.AssetUtils
+it/feio/android/omninotes/databinding/ActivityPasswordBinding.java
+ it.feio.android.omninotes.databinding.ActivityPasswordBinding
+it/feio/android/omninotes/utils/ColorsUtil.java
+ it.feio.android.omninotes.utils.ColorsUtil
+it/feio/android/omninotes/databinding/DrawerCategoryListHeaderBinding.java
+ it.feio.android.omninotes.databinding.DrawerCategoryListHeaderBinding
+it/feio/android/omninotes/databinding/AttachmentDialogBinding.java
+ it.feio.android.omninotes.databinding.AttachmentDialogBinding
+it/feio/android/omninotes/models/views/SketchView.java
+ it.feio.android.omninotes.models.views.SketchView
+it/feio/android/omninotes/models/views/ExpandableHeightGridView.java
+ it.feio.android.omninotes.models.views.ExpandableHeightGridView
+it/feio/android/omninotes/helpers/notifications/NotificationsHelper.java
+ it.feio.android.omninotes.helpers.notifications.NotificationsHelper
+it/feio/android/omninotes/SettingsFragment.java
+ it.feio.android.omninotes.SettingsFragment
+ it.feio.android.omninotes.SettingsFragment$1
+it/feio/android/omninotes/async/notes/NoteProcessor.java
+ it.feio.android.omninotes.async.notes.NoteProcessor
+ it.feio.android.omninotes.async.notes.NoteProcessor$NotesProcessorTask
+it/feio/android/omninotes/helpers/AttachmentsHelper.java
+ it.feio.android.omninotes.helpers.AttachmentsHelper
+it/feio/android/omninotes/helpers/LanguageHelper.java
+ it.feio.android.omninotes.helpers.LanguageHelper
+it/feio/android/omninotes/models/Category.java
+ it.feio.android.omninotes.models.Category
+ it.feio.android.omninotes.models.Category$1
+it/feio/android/omninotes/databinding/IntroSlideBinding.java
+ it.feio.android.omninotes.databinding.IntroSlideBinding
+it/feio/android/omninotes/async/bus/NotesUpdatedEvent.java
+ it.feio.android.omninotes.async.bus.NotesUpdatedEvent
+it/feio/android/omninotes/models/adapters/NavDrawerAdapter.java
+ it.feio.android.omninotes.models.adapters.NavDrawerAdapter
+ it.feio.android.omninotes.models.adapters.NoteDrawerAdapterViewHolder
+it/feio/android/omninotes/widget/SimpleWidgetProvider.java
+ it.feio.android.omninotes.widget.SimpleWidgetProvider
+it/feio/android/omninotes/async/bus/CategoriesUpdatedEvent.java
+ it.feio.android.omninotes.async.bus.CategoriesUpdatedEvent
+it/feio/android/omninotes/NoteInfosActivity.java
+ it.feio.android.omninotes.NoteInfosActivity
+it/feio/android/omninotes/AboutActivity.java
+ it.feio.android.omninotes.AboutActivity
+it/feio/android/omninotes/intro/IntroSlide4.java
+ it.feio.android.omninotes.intro.IntroSlide4
+it/feio/android/omninotes/databinding/WidgetLayoutSmallBinding.java
+ it.feio.android.omninotes.databinding.WidgetLayoutSmallBinding
+it/feio/android/omninotes/async/bus/SwitchFragmentEvent.java
+ it.feio.android.omninotes.async.bus.SwitchFragmentEvent
+ it.feio.android.omninotes.async.bus.SwitchFragmentEvent$Direction
+it/feio/android/omninotes/databinding/WebviewBinding.java
+ it.feio.android.omninotes.databinding.WebviewBinding
+it/feio/android/omninotes/utils/ReminderHelper.java
+ it.feio.android.omninotes.utils.ReminderHelper
+it/feio/android/omninotes/utils/Display.java
+ it.feio.android.omninotes.utils.Display
+it/feio/android/omninotes/databinding/CroutonHandleBinding.java
+ it.feio.android.omninotes.databinding.CroutonHandleBinding
+it/feio/android/omninotes/models/listeners/OnNoteSaved.java
+ it.feio.android.omninotes.models.listeners.OnNoteSaved
+it/feio/android/omninotes/utils/ConstantsBase.java
+ it.feio.android.omninotes.utils.ConstantsBase
+it/feio/android/omninotes/databinding/PasswordButtonsBinding.java
+ it.feio.android.omninotes.databinding.PasswordButtonsBinding
+it/feio/android/omninotes/models/UndoBarController.java
+ it.feio.android.omninotes.models.UndoBarController
+ it.feio.android.omninotes.models.UndoBarController$1
+ it.feio.android.omninotes.models.UndoBarController$2
+ it.feio.android.omninotes.models.UndoBarController$UndoListener
+it/feio/android/omninotes/async/notes/NoteProcessorDelete.java
+ it.feio.android.omninotes.async.notes.NoteProcessorDelete
+it/feio/android/omninotes/models/adapters/category/CategoryViewHolder.java
+ it.feio.android.omninotes.models.adapters.category.CategoryViewHolder
+it/feio/android/omninotes/utils/ConnectionManager.java
+ it.feio.android.omninotes.utils.ConnectionManager
+it/feio/android/omninotes/databinding/ToolbarBinding.java
+ it.feio.android.omninotes.databinding.ToolbarBinding
+it/feio/android/omninotes/intro/IntroFragment.java
+ it.feio.android.omninotes.intro.IntroFragment
+it/feio/android/omninotes/databinding/DrawerListItemBinding.java
+ it.feio.android.omninotes.databinding.DrawerListItemBinding
+it/feio/android/omninotes/async/MainMenuTask.java
+ it.feio.android.omninotes.async.MainMenuTask
+it/feio/android/omninotes/async/AlarmRestoreOnRebootService.java
+ it.feio.android.omninotes.async.AlarmRestoreOnRebootService
+it/feio/android/omninotes/factory/MediaStoreFactory.java
+ it.feio.android.omninotes.factory.MediaStoreFactory
+it/feio/android/omninotes/databinding/ActivityWidgetConfigurationBinding.java
+ it.feio.android.omninotes.databinding.ActivityWidgetConfigurationBinding
+it/feio/android/omninotes/intro/IntroActivity.java
+ it.feio.android.omninotes.intro.IntroActivity
+it/feio/android/omninotes/models/views/RecyclerViewEmptySupport.java
+ it.feio.android.omninotes.models.views.RecyclerViewEmptySupport
+ it.feio.android.omninotes.models.views.RecyclerViewEmptySupport$1
+it/feio/android/omninotes/async/notes/NoteProcessorTrash.java
+ it.feio.android.omninotes.async.notes.NoteProcessorTrash
+it/feio/android/omninotes/models/ONStyle.java
+ it.feio.android.omninotes.models.ONStyle
+it/feio/android/omninotes/models/views/Fab.java
+ it.feio.android.omninotes.models.views.Fab
+ it.feio.android.omninotes.models.views.Fab$1
+ it.feio.android.omninotes.models.views.Fab$2
+ it.feio.android.omninotes.models.views.Fab$3
+it/feio/android/omninotes/utils/AnimationsHelper.java
+ it.feio.android.omninotes.utils.AnimationsHelper
+ it.feio.android.omninotes.utils.AnimationsHelper$1
+it/feio/android/omninotes/intro/IntroSlide1.java
+ it.feio.android.omninotes.intro.IntroSlide1
+it/feio/android/omninotes/exceptions/DatabaseException.java
+ it.feio.android.omninotes.exceptions.DatabaseException
+it/feio/android/omninotes/models/listeners/OnReminderPickedListener.java
+ it.feio.android.omninotes.models.listeners.OnReminderPickedListener
+it/feio/android/omninotes/models/adapters/NoteAdapter.java
+ it.feio.android.omninotes.models.adapters.NoteAdapter
+it/feio/android/omninotes/async/AttachmentTask.java
+ it.feio.android.omninotes.async.AttachmentTask
+it/feio/android/omninotes/utils/ShortcutHelper.java
+ it.feio.android.omninotes.utils.ShortcutHelper
+it/feio/android/omninotes/helpers/date/DateHelper.java
+ it.feio.android.omninotes.helpers.date.DateHelper
+it/feio/android/omninotes/utils/FileHelper.java
+ it.feio.android.omninotes.utils.FileHelper
+it/feio/android/omninotes/intro/IntroSlide3.java
+ it.feio.android.omninotes.intro.IntroSlide3
+it/feio/android/omninotes/databinding/PasswordResetDialogLayoutBinding.java
+ it.feio.android.omninotes.databinding.PasswordResetDialogLayoutBinding
+it/feio/android/omninotes/helpers/AppVersionHelper.java
+ it.feio.android.omninotes.helpers.AppVersionHelper
+it/feio/android/omninotes/databinding/SettingsFontSizeItemBinding.java
+ it.feio.android.omninotes.databinding.SettingsFontSizeItemBinding
+it/feio/android/omninotes/async/bus/NavigationUpdatedEvent.java
+ it.feio.android.omninotes.async.bus.NavigationUpdatedEvent
+it/feio/android/omninotes/models/adapters/CategoryBaseAdapter.java
+ it.feio.android.omninotes.models.adapters.CategoryBaseAdapter
+it/feio/android/omninotes/models/adapters/PlacesAutoCompleteAdapter.java
+ it.feio.android.omninotes.models.adapters.PlacesAutoCompleteAdapter
+ it.feio.android.omninotes.models.adapters.PlacesAutoCompleteAdapter$1
+it/feio/android/omninotes/utils/IntentChecker.java
+ it.feio.android.omninotes.utils.IntentChecker
+it/feio/android/omninotes/helpers/BackupHelper.java
+ it.feio.android.omninotes.helpers.BackupHelper
+it/feio/android/omninotes/BuildConfig.java
+ it.feio.android.omninotes.BuildConfig
+it/feio/android/omninotes/db/DbHelper.java
+ it.feio.android.omninotes.db.DbHelper
+it/feio/android/omninotes/models/PasswordValidator.java
+ it.feio.android.omninotes.models.PasswordValidator
+ it.feio.android.omninotes.models.PasswordValidator$Result
+it/feio/android/omninotes/databinding/RateAppDialogLayoutBinding.java
+ it.feio.android.omninotes.databinding.RateAppDialogLayoutBinding
+it/feio/android/omninotes/async/bus/PasswordRemovedEvent.java
+ it.feio.android.omninotes.async.bus.PasswordRemovedEvent
+it/feio/android/omninotes/services/NotificationListener.java
+ it.feio.android.omninotes.services.NotificationListener
+it/feio/android/omninotes/utils/Navigation.java
+ it.feio.android.omninotes.utils.Navigation
+it/feio/android/omninotes/models/listeners/OnViewTouchedListener.java
+ it.feio.android.omninotes.models.listeners.OnViewTouchedListener
+it/feio/android/omninotes/databinding/ImageAndTextItemBinding.java
+ it.feio.android.omninotes.databinding.ImageAndTextItemBinding
+it/feio/android/omninotes/databinding/FragmentDetailBinding.java
+ it.feio.android.omninotes.databinding.FragmentDetailBinding
+it/feio/android/omninotes/models/views/InterceptorFrameLayout.java
+ it.feio.android.omninotes.models.views.InterceptorFrameLayout
+it/feio/android/omninotes/models/adapters/AttachmentAdapter.java
+ it.feio.android.omninotes.models.adapters.AttachmentAdapter
+ it.feio.android.omninotes.models.adapters.AttachmentAdapter$AttachmentHolder
+it/feio/android/omninotes/widget/WidgetConfigurationActivity.java
+ it.feio.android.omninotes.widget.WidgetConfigurationActivity
+it/feio/android/omninotes/utils/AlphaManager.java
+ it.feio.android.omninotes.utils.AlphaManager
+it/feio/android/omninotes/models/views/InterceptorLinearLayout.java
+ it.feio.android.omninotes.models.views.InterceptorLinearLayout
+it/feio/android/omninotes/databinding/FragmentDetailAttachmentsBinding.java
+ it.feio.android.omninotes.databinding.FragmentDetailAttachmentsBinding
+it/feio/android/omninotes/GalleryActivity.java
+ it.feio.android.omninotes.GalleryActivity
+ it.feio.android.omninotes.GalleryActivity$1
+ it.feio.android.omninotes.GalleryActivity$2
+it/feio/android/omninotes/intro/IntroSlide2.java
+ it.feio.android.omninotes.intro.IntroSlide2
+it/feio/android/omninotes/async/notes/NoteLoaderTask.java
+ it.feio.android.omninotes.async.notes.NoteLoaderTask
+it/feio/android/omninotes/databinding/ActivityGalleryBinding.java
+ it.feio.android.omninotes.databinding.ActivityGalleryBinding
+it/feio/android/omninotes/databinding/FragmentSketchBinding.java
+ it.feio.android.omninotes.databinding.FragmentSketchBinding
+it/feio/android/omninotes/SnoozeActivity.java
+ it.feio.android.omninotes.SnoozeActivity
+it/feio/android/omninotes/exceptions/checked/UnhandledIntentException.java
+ it.feio.android.omninotes.exceptions.checked.UnhandledIntentException
+it/feio/android/omninotes/utils/SystemHelper.java
+ it.feio.android.omninotes.utils.SystemHelper
+it/feio/android/omninotes/models/PushBulletMessage.java
+ it.feio.android.omninotes.models.PushBulletMessage
+it/feio/android/omninotes/helpers/IntentHelper.java
+ it.feio.android.omninotes.helpers.IntentHelper
+it/feio/android/omninotes/databinding/RowBinding.java
+ it.feio.android.omninotes.databinding.RowBinding
+it/feio/android/omninotes/helpers/NotesHelper.java
+ it.feio.android.omninotes.helpers.NotesHelper
+it/feio/android/omninotes/databinding/ActivityStatsBinding.java
+ it.feio.android.omninotes.databinding.ActivityStatsBinding
+it/feio/android/omninotes/models/listeners/OnGeoUtilResultListener.java
+ it.feio.android.omninotes.models.listeners.OnGeoUtilResultListener
+it/feio/android/omninotes/models/holders/ImageAndTextItem.java
+ it.feio.android.omninotes.models.holders.ImageAndTextItem
+it/feio/android/omninotes/extensions/PushBulletExtension.java
+ it.feio.android.omninotes.extensions.PushBulletExtension
+it/feio/android/omninotes/databinding/SettingsFontSizeDialogItemBinding.java
+ it.feio.android.omninotes.databinding.SettingsFontSizeDialogItemBinding
+it/feio/android/omninotes/databinding/NoteLayoutExpandedBinding.java
+ it.feio.android.omninotes.databinding.NoteLayoutExpandedBinding
+it/feio/android/omninotes/utils/TextHelper.java
+ it.feio.android.omninotes.utils.TextHelper
+it/feio/android/omninotes/async/bus/NotificationRemovedEvent.java
+ it.feio.android.omninotes.async.bus.NotificationRemovedEvent
+it/feio/android/omninotes/utils/date/DateUtils.java
+ it.feio.android.omninotes.utils.date.DateUtils
+it/feio/android/omninotes/widget/ListWidgetService.java
+ it.feio.android.omninotes.widget.ListWidgetService
+it/feio/android/omninotes/async/bus/PushbulletReplyEvent.java
+ it.feio.android.omninotes.async.bus.PushbulletReplyEvent
+it/feio/android/omninotes/utils/LoadingDialog.java
+ it.feio.android.omninotes.utils.LoadingDialog
+it/feio/android/omninotes/DetailFragment.java
+ it.feio.android.omninotes.DetailFragment
+ it.feio.android.omninotes.DetailFragment$1
+ it.feio.android.omninotes.DetailFragment$2
+ it.feio.android.omninotes.DetailFragment$3
+ it.feio.android.omninotes.DetailFragment$AttachmentOnClickListener
+ it.feio.android.omninotes.DetailFragment$OnGeoUtilResultListenerImpl
+ it.feio.android.omninotes.DetailFragment$OnGeoUtilResultListenerImpl$1
+it/feio/android/omninotes/MainActivity.java
+ it.feio.android.omninotes.MainActivity
+ it.feio.android.omninotes.MainActivity$1
+it/feio/android/omninotes/async/bus/DynamicNavigationReadyEvent.java
+ it.feio.android.omninotes.async.bus.DynamicNavigationReadyEvent
+it/feio/android/omninotes/databinding/ActivitySettingsBinding.java
+ it.feio.android.omninotes.databinding.ActivitySettingsBinding
+it/feio/android/omninotes/models/StatsSingleNote.java
+ it.feio.android.omninotes.models.StatsSingleNote
+it/feio/android/omninotes/helpers/date/RecurrenceHelper.java
+ it.feio.android.omninotes.helpers.date.RecurrenceHelper
+it/feio/android/omninotes/CategoryActivity.java
+ it.feio.android.omninotes.CategoryActivity
+it/feio/android/omninotes/helpers/count/IdeogramsWordCounter.java
+ it.feio.android.omninotes.helpers.count.IdeogramsWordCounter
+it/feio/android/omninotes/databinding/ActivityAboutBinding.java
+ it.feio.android.omninotes.databinding.ActivityAboutBinding
+it/feio/android/omninotes/databinding/NoteLayoutBinding.java
+ it.feio.android.omninotes.databinding.NoteLayoutBinding
+it/feio/android/omninotes/PasswordActivity.java
+ it.feio.android.omninotes.PasswordActivity
+ it.feio.android.omninotes.PasswordActivity$1
+ it.feio.android.omninotes.PasswordActivity$2
+it/feio/android/omninotes/databinding/FragmentListBinding.java
+ it.feio.android.omninotes.databinding.FragmentListBinding
+it/feio/android/omninotes/models/Tag.java
+ it.feio.android.omninotes.models.Tag
+ it.feio.android.omninotes.models.Tag$1
+it/feio/android/omninotes/async/TextWorkerTask.java
+ it.feio.android.omninotes.async.TextWorkerTask
+it/feio/android/omninotes/databinding/DialogRemoveChecklistLayoutBinding.java
+ it.feio.android.omninotes.databinding.DialogRemoveChecklistLayoutBinding
+it/feio/android/omninotes/utils/ResourcesUtils.java
+ it.feio.android.omninotes.utils.ResourcesUtils
+ it.feio.android.omninotes.utils.ResourcesUtils$ResourceIdentifiers
+it/feio/android/omninotes/helpers/count/DefaultWordCounter.java
+ it.feio.android.omninotes.helpers.count.DefaultWordCounter
+it/feio/android/omninotes/databinding/WidgetLayoutBinding.java
+ it.feio.android.omninotes.databinding.WidgetLayoutBinding
+it/feio/android/omninotes/databinding/ActivityMainBinding.java
+ it.feio.android.omninotes.databinding.ActivityMainBinding
+it/feio/android/omninotes/databinding/SimpleTextLayoutBinding.java
+ it.feio.android.omninotes.databinding.SimpleTextLayoutBinding
+it/feio/android/omninotes/BaseFragment.java
+ it.feio.android.omninotes.BaseFragment
+it/feio/android/omninotes/NavigationDrawerFragment.java
+ it.feio.android.omninotes.NavigationDrawerFragment
+ it.feio.android.omninotes.NavigationDrawerFragment$1
+it/feio/android/omninotes/extensions/ONDashClockExtension.java
+ it.feio.android.omninotes.extensions.ONDashClockExtension
+ it.feio.android.omninotes.extensions.ONDashClockExtension$Counters
+ it.feio.android.omninotes.extensions.ONDashClockExtension$DashClockUpdateReceiver
+it/feio/android/omninotes/models/listeners/OnAttachingFileListener.java
+ it.feio.android.omninotes.models.listeners.OnAttachingFileListener
+it/feio/android/omninotes/async/bus/NavigationUpdatedNavDrawerClosedEvent.java
+ it.feio.android.omninotes.async.bus.NavigationUpdatedNavDrawerClosedEvent
+it/feio/android/omninotes/models/Stats.java
+ it.feio.android.omninotes.models.Stats
+it/feio/android/omninotes/databinding/PopupSketchEraserBinding.java
+ it.feio.android.omninotes.databinding.PopupSketchEraserBinding
+it/feio/android/omninotes/models/Note.java
+ it.feio.android.omninotes.models.Note
+ it.feio.android.omninotes.models.Note$1
+it/feio/android/omninotes/models/listeners/OnFabItemClickedListener.java
+ it.feio.android.omninotes.models.listeners.OnFabItemClickedListener
+it/feio/android/omninotes/utils/BitmapHelper.java
+ it.feio.android.omninotes.utils.BitmapHelper
+it/feio/android/omninotes/async/notes/NoteProcessorCategorize.java
+ it.feio.android.omninotes.async.notes.NoteProcessorCategorize
+it/feio/android/omninotes/async/DataBackupIntentService.java
+ it.feio.android.omninotes.async.DataBackupIntentService
+it/feio/android/omninotes/ShortcutActivity.java
+ it.feio.android.omninotes.ShortcutActivity
+it/feio/android/omninotes/models/adapters/CategoryRecyclerViewAdapter.java
+ it.feio.android.omninotes.models.adapters.CategoryRecyclerViewAdapter
+it/feio/android/omninotes/SettingsActivity.java
+ it.feio.android.omninotes.SettingsActivity
+it/feio/android/omninotes/models/views/NonScrollableListView.java
+ it.feio.android.omninotes.models.views.NonScrollableListView
+it/feio/android/omninotes/widget/ListWidgetProvider.java
+ it.feio.android.omninotes.widget.ListWidgetProvider
+it/feio/android/omninotes/helpers/SpringImportHelper.java
+ it.feio.android.omninotes.helpers.SpringImportHelper
+it/feio/android/omninotes/models/misc/DynamicNavigationLookupTable.java
+ it.feio.android.omninotes.models.misc.DynamicNavigationLookupTable
+it/feio/android/omninotes/models/listeners/OnPermissionRequestedListener.java
+ it.feio.android.omninotes.models.listeners.OnPermissionRequestedListener
+it/feio/android/omninotes/receiver/AlarmReceiver.java
+ it.feio.android.omninotes.receiver.AlarmReceiver
+it/feio/android/omninotes/exceptions/NotesLoadingException.java
+ it.feio.android.omninotes.exceptions.NotesLoadingException
+it/feio/android/omninotes/models/listeners/OnDrawChangedListener.java
+ it.feio.android.omninotes.models.listeners.OnDrawChangedListener
+it/feio/android/omninotes/utils/ParcelableUtil.java
+ it.feio.android.omninotes.utils.ParcelableUtil
+it/feio/android/omninotes/utils/KeyboardUtils.java
+ it.feio.android.omninotes.utils.KeyboardUtils
+it/feio/android/omninotes/models/listeners/RecyclerViewItemClickSupport.java
+ it.feio.android.omninotes.models.listeners.RecyclerViewItemClickSupport
+ it.feio.android.omninotes.models.listeners.RecyclerViewItemClickSupport$1
+ it.feio.android.omninotes.models.listeners.RecyclerViewItemClickSupport$2
+ it.feio.android.omninotes.models.listeners.RecyclerViewItemClickSupport$3
+ it.feio.android.omninotes.models.listeners.RecyclerViewItemClickSupport$OnItemClickListener
+ it.feio.android.omninotes.models.listeners.RecyclerViewItemClickSupport$OnItemLongClickListener
+it/feio/android/omninotes/async/bus/NotesMergeEvent.java
+ it.feio.android.omninotes.async.bus.NotesMergeEvent
+it/feio/android/omninotes/helpers/count/CountFactory.java
+ it.feio.android.omninotes.helpers.count.CountFactory
+it/feio/android/omninotes/widget/ListRemoteViewsFactory.java
+ it.feio.android.omninotes.widget.ListRemoteViewsFactory
+it/feio/android/omninotes/helpers/PermissionsHelper.java
+ it.feio.android.omninotes.helpers.PermissionsHelper
+it/feio/android/omninotes/helpers/notifications/NotificationChannel.java
+ it.feio.android.omninotes.helpers.notifications.NotificationChannel
+it/feio/android/omninotes/exceptions/GenericException.java
+ it.feio.android.omninotes.exceptions.GenericException
+it/feio/android/omninotes/utils/FileProviderHelper.java
+ it.feio.android.omninotes.utils.FileProviderHelper
+it/feio/android/omninotes/databinding/PasswordRequestDialogLayoutBinding.java
+ it.feio.android.omninotes.databinding.PasswordRequestDialogLayoutBinding
+it/feio/android/omninotes/exceptions/checked/BackupAttachmentException.java
+ it.feio.android.omninotes.exceptions.checked.BackupAttachmentException
+it/feio/android/omninotes/databinding/DialogBackupLayoutBinding.java
+ it.feio.android.omninotes.databinding.DialogBackupLayoutBinding
+it/feio/android/omninotes/utils/date/SublimePickerFragment.java
+ it.feio.android.omninotes.utils.date.SublimePickerFragment
+ it.feio.android.omninotes.utils.date.SublimePickerFragment$1
+ it.feio.android.omninotes.utils.date.SublimePickerFragment$Callback
+it/feio/android/omninotes/async/CategoryMenuTask.java
+ it.feio.android.omninotes.async.CategoryMenuTask
+it/feio/android/omninotes/databinding/FragmentNavigationDrawerBinding.java
+ it.feio.android.omninotes.databinding.FragmentNavigationDrawerBinding
+it/feio/android/omninotes/databinding/DrawerCategoryListFooterBinding.java
+ it.feio.android.omninotes.databinding.DrawerCategoryListFooterBinding
+it/feio/android/omninotes/exceptions/BackupException.java
+ it.feio.android.omninotes.exceptions.BackupException
+it/feio/android/omninotes/utils/TagsHelper.java
+ it.feio.android.omninotes.utils.TagsHelper
+it/feio/android/omninotes/BaseActivity.java
+ it.feio.android.omninotes.BaseActivity
+it/feio/android/omninotes/helpers/notifications/NotificationChannels.java
+ it.feio.android.omninotes.helpers.notifications.NotificationChannels
+ it.feio.android.omninotes.helpers.notifications.NotificationChannels$NotificationChannelNames
+it/feio/android/omninotes/databinding/ActivityChangelogBinding.java
+ it.feio.android.omninotes.databinding.ActivityChangelogBinding
+it/feio/android/omninotes/widget/WidgetProvider.java
+ it.feio.android.omninotes.widget.WidgetProvider
+it/feio/android/omninotes/helpers/LogDelegate.java
+ it.feio.android.omninotes.helpers.LogDelegate
+it/feio/android/omninotes/databinding/ActivityNoteInfosBinding.java
+ it.feio.android.omninotes.databinding.ActivityNoteInfosBinding
+it/feio/android/omninotes/models/holders/NoteViewHolder.java
+ it.feio.android.omninotes.models.holders.NoteViewHolder
+it/feio/android/omninotes/databinding/UndobarBinding.java
+ it.feio.android.omninotes.databinding.UndobarBinding
+it/feio/android/omninotes/databinding/SublimePickerBinding.java
+ it.feio.android.omninotes.databinding.SublimePickerBinding
+it/feio/android/omninotes/models/NavigationItem.java
+ it.feio.android.omninotes.models.NavigationItem
+it/feio/android/omninotes/models/listeners/OnCABItemClickedListener.java
+ it.feio.android.omninotes.models.listeners.OnCABItemClickedListener
+it/feio/android/omninotes/models/misc/PlayStoreMetadataFetcherResult.java
+ it.feio.android.omninotes.models.misc.PlayStoreMetadataFetcherResult
+it/feio/android/omninotes/utils/date/ReminderPickers.java
+ it.feio.android.omninotes.utils.date.ReminderPickers
+ it.feio.android.omninotes.utils.date.ReminderPickers$1
+it/feio/android/omninotes/helpers/count/WordCounter.java
+ it.feio.android.omninotes.helpers.count.WordCounter
+it/feio/android/omninotes/helpers/GeocodeProviderFactory.java
+ it.feio.android.omninotes.helpers.GeocodeProviderFactory
+it/feio/android/omninotes/utils/PasswordHelper.java
+ it.feio.android.omninotes.utils.PasswordHelper
+it/feio/android/omninotes/ListFragment.java
+ it.feio.android.omninotes.ListFragment
+ it.feio.android.omninotes.ListFragment$1
+ it.feio.android.omninotes.ListFragment$2
+ it.feio.android.omninotes.ListFragment$2$1
+ it.feio.android.omninotes.ListFragment$3
+ it.feio.android.omninotes.ListFragment$ModeCallback
+it/feio/android/omninotes/OmniNotes.java
+ it.feio.android.omninotes.OmniNotes
+it/feio/android/omninotes/databinding/FragmentDetailContentBinding.java
+ it.feio.android.omninotes.databinding.FragmentDetailContentBinding
+it/feio/android/omninotes/utils/GeocodeHelper.java
+ it.feio.android.omninotes.utils.GeocodeHelper
+ it.feio.android.omninotes.utils.GeocodeHelper$1
+it/feio/android/omninotes/models/views/SquareImageView.java
+ it.feio.android.omninotes.models.views.SquareImageView
+it/feio/android/omninotes/async/bus/NotesDeletedEvent.java
+ it.feio.android.omninotes.async.bus.NotesDeletedEvent
+it/feio/android/omninotes/utils/StorageHelper.java
+ it.feio.android.omninotes.utils.StorageHelper
+it/feio/android/omninotes/async/UpdateWidgetsTask.java
+ it.feio.android.omninotes.async.UpdateWidgetsTask
+ it.feio.android.omninotes.async.UpdateWidgetsTask$WidgetUpdateSubscriber
+it/feio/android/omninotes/databinding/GridviewItemBinding.java
+ it.feio.android.omninotes.databinding.GridviewItemBinding
+it/feio/android/omninotes/databinding/WidgetLayoutToolbarBinding.java
+ it.feio.android.omninotes.databinding.WidgetLayoutToolbarBinding
+it/feio/android/omninotes/intro/IntroSlide5.java
+ it.feio.android.omninotes.intro.IntroSlide5
+it/feio/android/omninotes/models/views/VerticalSeekBar.java
+ it.feio.android.omninotes.models.views.VerticalSeekBar
+it/feio/android/omninotes/StatsActivity.java
+ it.feio.android.omninotes.StatsActivity
+ it.feio.android.omninotes.StatsActivity$1StatsTask
+it/feio/android/omninotes/async/upgrade/UpgradeProcessor.java
+ it.feio.android.omninotes.async.upgrade.UpgradeProcessor

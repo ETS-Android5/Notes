@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-ky-rKG/values-ky-rKG.xml",
+            "map": [
+                {
+                    "source": "/Users/yehiaali/.gradle/caches/transforms-2/files-2.1/69afef3b4529077e08c2e4b5352908de/jetified-sublimepickerlibrary-2.1.2/res/values-ky-rKG/values-ky-rKG.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,172,252,338,402,461,526,583",
+                        "endColumns": "66,79,85,63,58,64,56,65",
+                        "endOffsets": "167,247,333,397,456,521,578,644"
+                    }
+                }
+            ]
+        }
+    ]
+}

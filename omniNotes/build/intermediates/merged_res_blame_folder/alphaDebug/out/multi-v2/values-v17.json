@@ -1,0 +1,58 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-v17/values-v17.xml",
+            "map": [
+                {
+                    "source": "/Users/yehiaali/.gradle/caches/transforms-2/files-2.1/69afef3b4529077e08c2e4b5352908de/jetified-sublimepickerlibrary-2.1.2/res/values-v17/values-v17.xml",
+                    "from": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,223",
+                        "endLines": "4,8",
+                        "endColumns": "12,12",
+                        "endOffsets": "218,445"
+                    }
+                },
+                {
+                    "source": "/Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d18e008ec0eac97d48d829e82db06389/jetified-checklistview-4.1.0/res/values-v17/values-v17.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "250"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "450",
+                        "endLines": "12",
+                        "endColumns": "10",
+                        "endOffsets": "645"
+                    }
+                },
+                {
+                    "source": "/Users/yehiaali/.gradle/caches/transforms-2/files-2.1/4079389b9b8fe8239242e4ade9044653/appcompat-1.2.0/res/values-v17/values-v17.xml",
+                    "from": {
+                        "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,228,456,614,764,936,1161,1331,1559,1783,2025,2196,2370,2539,2812,3012,3216",
+                        "endLines": "4,8,11,14,17,21,24,28,32,36,39,42,45,49,52,56,60",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "223,451,609,759,931,1156,1326,1554,1778,2020,2191,2365,2534,2807,3007,3211,3540"
+                    },
+                    "to": {
+                        "startLines": "13,16,20,23,26,29,33,36,40,44,48,51,54,57,61,64,68",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "650,823,1051,1209,1359,1531,1756,1926,2154,2378,2620,2791,2965,3134,3407,3607,3811",
+                        "endLines": "15,19,22,25,28,32,35,39,43,47,50,53,56,60,63,67,71",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "818,1046,1204,1354,1526,1751,1921,2149,2373,2615,2786,2960,3129,3402,3602,3806,4135"
+                    }
+                }
+            ]
+        }
+    ]
+}

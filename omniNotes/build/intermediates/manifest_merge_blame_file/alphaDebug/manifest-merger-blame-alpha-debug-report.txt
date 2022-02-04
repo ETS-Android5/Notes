@@ -1,0 +1,673 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright (C) 2013-2020 Federico Iosue (federico@iosue.it)
+4  ~
+5  ~ This program is free software: you can redistribute it and/or modify
+6  ~ it under the terms of the GNU General Public License as published by
+7  ~ the Free Software Foundation, either version 3 of the License, or
+8  ~ (at your option) any later version.
+9  ~
+10  ~ This program is distributed in the hope that it will be useful,
+11  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+12  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+13  ~ GNU General Public License for more details.
+14  ~
+15  ~ You should have received a copy of the GNU General Public License
+16  ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+17-->
+18<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+19    package="it.feio.android.omninotes.alpha"
+20    android:versionCode="301"
+21    android:versionName="6.1.0" >
+22
+23    <uses-sdk
+24        android:minSdkVersion="21"
+24-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml
+25        android:targetSdkVersion="29" />
+25-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml
+26
+27    <uses-permission android:name="android.permission.INTERNET" />
+27-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:23:3-65
+27-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:23:20-62
+28    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+28-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:24:3-79
+28-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:24:20-76
+29    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+29-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:25:3-77
+29-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:25:20-74
+30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+30-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:26:3-77
+30-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:26:20-74
+31    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+31-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:27:3-79
+31-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:27:20-76
+32    <uses-permission android:name="android.permission.VIBRATE" />
+32-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:28:3-64
+32-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:28:20-61
+33    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+33-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:29:3-79
+33-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:29:20-76
+34    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+34-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:30:3-69
+34-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:30:20-66
+35    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+35-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:31:3-78
+35-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:31:20-75
+36    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+36-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:32:3-76
+36-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:32:20-73
+37    <uses-permission android:name="com.google.android.apps.photos.permission.GOOGLE_PHOTOS" />
+37-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:33:3-93
+37-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:33:20-90
+38    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+38-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:34:3-86
+38-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:34:20-83
+39    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+39-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:35:3-88
+39-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:35:20-85
+40    <uses-permission android:name="com.pushbullet.android.permission.READ_MESSAGING_EXTENSION_DATA" />
+40-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:36:3-101
+40-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:36:20-98
+41    <uses-permission android:name="com.pushbullet.android.permission.SEND_MESSAGES" />
+41-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:37:3-85
+41-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:37:20-82
+42    <uses-permission android:name="android.permission.WAKE_LOCK" />
+42-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:38:3-66
+42-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:38:20-63
+43
+44    <uses-feature
+44-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:40:3-42:32
+45        android:name="android.hardware.camera"
+45-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:41:5-43
+46        android:required="false" />
+46-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:42:5-29
+47    <uses-feature
+47-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:43:3-45:32
+48        android:name="android.hardware.location.gps"
+48-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:44:5-49
+49        android:required="false" />
+49-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:45:5-29
+50
+51    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+51-->[io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:15:5-98
+51-->[io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:15:22-95
+52    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+52-->[io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:16:5-94
+52-->[io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:16:22-91
+53
+54    <uses-feature
+54-->[com.google.android.gms:play-services-maps:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8af0944acee78f11452c9500e70ecb35/jetified-play-services-maps-9.0.2/AndroidManifest.xml:22:5-24:33
+55        android:glEsVersion="0x00020000"
+55-->[com.google.android.gms:play-services-maps:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8af0944acee78f11452c9500e70ecb35/jetified-play-services-maps-9.0.2/AndroidManifest.xml:23:8-40
+56        android:required="true" />
+56-->[com.google.android.gms:play-services-maps:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8af0944acee78f11452c9500e70ecb35/jetified-play-services-maps-9.0.2/AndroidManifest.xml:24:8-31
+57
+58    <application
+58-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:47:3-319:17
+59        android:name="it.feio.android.omninotes.OmniNotes"
+59-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:48:5-55
+60        android:allowBackup="true"
+60-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:49:5-31
+61        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+61-->[androidx.core:core:1.6.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d9d643a4a23edc2636eb9fd43b95643c/core-1.6.0/AndroidManifest.xml:24:18-86
+62        android:debuggable="true"
+63        android:icon="@mipmap/ic_launcher"
+63-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:51:5-39
+64        android:label="@string/app_name"
+64-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:52:5-37
+65        android:largeHeap="true"
+65-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:53:5-29
+66        android:requestLegacyExternalStorage="true"
+66-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:50:5-48
+67        android:supportsRtl="true"
+67-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:54:5-31
+68        android:testOnly="true"
+69        android:theme="@style/OmniNotesTheme.ApiSpec.Branded" >
+69-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:55:5-58
+70        <meta-data
+70-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:57:5-59:39
+71            android:name="android.app.default_searchable"
+71-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:58:7-52
+72            android:value=".ListActivity" />
+72-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:59:7-36
+73        <meta-data
+73-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:60:5-63:39
+74            android:name="com.google.android.gms.version"
+74-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:61:7-52
+75            android:value="@integer/google_play_services_version" />
+75-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:62:7-60
+76
+77        <!-- List and Detail -->
+78        <activity
+78-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:66:5-130:16
+79            android:name="it.feio.android.omninotes.MainActivity"
+79-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:67:7-35
+80            android:exported="true"
+80-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:68:7-30
+81            android:label="@string/app_name"
+81-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:69:7-39
+82            android:launchMode="singleTop" >
+82-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:70:7-37
+83            <intent-filter>
+83-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:71:7-74:23
+84                <action android:name="android.intent.action.MAIN" />
+84-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:72:9-61
+84-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:72:17-58
+85
+86                <category android:name="android.intent.category.LAUNCHER" />
+86-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:73:9-69
+86-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:73:19-66
+87            </intent-filter>
+88
+89            <meta-data
+89-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:76:7-78:45
+90                android:name="android.app.shortcuts"
+90-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:77:9-45
+91                android:resource="@xml/shortcuts" />
+91-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:78:9-42
+92
+93            <intent-filter>
+93-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:80:7-82:23
+94                <action android:name="android.intent.action.SEARCH" />
+94-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:81:9-63
+94-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:81:17-60
+95            </intent-filter>
+96            <intent-filter>
+96-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:84:7-93:23
+97                <data
+97-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:85:9-87:48
+98                    android:host="@string/app_package"
+98-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:87:11-45
+99                    android:scheme="app" />
+99-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:86:11-31
+100
+101                <action android:name="android.intent.action.VIEW" />
+101-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:88:9-61
+101-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:88:17-58
+102
+103                <category android:name="android.intent.category.DEFAULT" />
+103-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:90:9-68
+103-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:90:19-65
+104                <category android:name="android.intent.category.BROWSABLE" />
+104-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:91:9-70
+104-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:91:19-67
+105            </intent-filter>
+106
+107            <meta-data
+107-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:95:7-97:46
+108                android:name="android.app.searchable"
+108-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:96:9-46
+109                android:resource="@xml/searchable" />
+109-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:97:9-43
+110
+111            <intent-filter>
+111-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:99:7-105:23
+112                <action android:name="com.google.android.gm.action.AUTO_SEND" />
+112-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:100:9-73
+112-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:100:17-70
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:90:9-68
+114-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:90:19-65
+115
+116                <data android:mimeType="*/*" />
+116-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:85:9-87:48
+116-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:104:15-37
+117            </intent-filter>
+118            <intent-filter>
+118-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:106:7-112:23
+119                <action android:name="android.intent.action.SEND" />
+119-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:107:9-61
+119-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:107:17-58
+120
+121                <category android:name="android.intent.category.DEFAULT" />
+121-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:90:9-68
+121-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:90:19-65
+122
+123                <data android:mimeType="*/*" />
+123-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:85:9-87:48
+123-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:104:15-37
+124            </intent-filter>
+125            <intent-filter>
+125-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:113:7-119:23
+126                <action android:name="android.intent.action.SEND_MULTIPLE" />
+126-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:114:9-70
+126-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:114:17-67
+127
+128                <category android:name="android.intent.category.DEFAULT" />
+128-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:90:9-68
+128-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:90:19-65
+129
+130                <data android:mimeType="*/*" />
+130-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:85:9-87:48
+130-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:104:15-37
+131            </intent-filter>
+132            <intent-filter>
+132-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:121:7-128:23
+133                <action android:name="android.intent.action.VIEW" />
+133-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:88:9-61
+133-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:88:17-58
+134
+135                <category android:name="android.intent.category.DEFAULT" />
+135-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:90:9-68
+135-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:90:19-65
+136                <category android:name="android.intent.category.BROWSABLE" />
+136-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:91:9-70
+136-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:91:19-67
+137
+138                <data android:scheme="hashtag" />
+138-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:85:9-87:48
+138-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:86:11-31
+139            </intent-filter>
+140        </activity>
+141
+142        <!-- Gallery -->
+143        <activity
+143-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:133:5-136:65
+144            android:name="it.feio.android.omninotes.GalleryActivity"
+144-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:134:7-63
+145            android:configChanges="orientation|keyboardHidden|screenSize"
+145-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:135:7-68
+146            android:theme="@style/OmniNotesFullscreenTheme.ApiSpec" />
+146-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:136:7-62
+147        <activity
+147-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:138:5-146:16
+148            android:name="it.feio.android.omninotes.CategoryActivity"
+148-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:139:7-64
+149            android:label="@string/title_activity_category"
+149-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:140:7-54
+150            android:parentActivityName="it.feio.android.omninotes.MainActivity"
+150-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:141:7-74
+151            android:theme="@style/Theme.MaterialComponents.Light.Dialog" >
+151-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:142:7-67
+152            <meta-data
+152-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:143:7-145:41
+153                android:name="android.support.PARENT_ACTIVITY"
+153-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:144:9-55
+154                android:value=".MainActivity" />
+154-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:145:9-38
+155        </activity>
+156
+157        <!-- Settings -->
+158        <activity
+158-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:149:5-156:16
+159            android:name="it.feio.android.omninotes.SettingsActivity"
+159-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:150:7-64
+160            android:label="@string/settings"
+160-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:151:7-39
+161            android:parentActivityName="it.feio.android.omninotes.MainActivity" >
+161-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:152:7-74
+162            <meta-data
+162-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:143:7-145:41
+163                android:name="android.support.PARENT_ACTIVITY"
+163-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:144:9-55
+164                android:value=".MainActivity" />
+164-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:145:9-38
+165        </activity>
+166
+167        <!-- Password -->
+168        <activity
+168-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:159:5-162:64
+169            android:name="it.feio.android.omninotes.PasswordActivity"
+169-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:160:7-64
+170            android:theme="@style/OmniNotesTheme.ApiSpec.Dialog"
+170-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:161:7-59
+171            android:windowSoftInputMode="stateHidden|adjustResize" />
+171-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:162:7-61
+172
+173        <!-- Info -->
+174        <activity
+174-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:165:5-168:40
+175            android:name="it.feio.android.omninotes.AboutActivity"
+175-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:166:7-61
+176            android:label="@string/title_activity_about"
+176-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:167:7-51
+177            android:launchMode="singleTop" />
+177-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:168:7-37
+178
+179        <!-- Intro -->
+180        <activity
+180-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:171:5-173:42
+181            android:name="it.feio.android.omninotes.intro.IntroActivity"
+181-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:172:7-42
+182            android:label="@string/app_name" />
+182-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:173:7-39
+183
+184        <!-- Snooze reminder -->
+185        <activity
+185-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:176:5-181:57
+186            android:name="it.feio.android.omninotes.SnoozeActivity"
+186-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:177:7-62
+187            android:excludeFromRecents="true"
+187-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:178:7-40
+188            android:launchMode="singleInstance"
+188-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:179:7-42
+189            android:noHistory="true"
+189-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:180:7-31
+190            android:theme="@style/OmniNotesTheme.NoDisplay" />
+190-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:181:7-54
+191
+192        <!-- Home launcher shortcut -->
+193        <activity
+193-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:184:5-192:16
+194            android:name="it.feio.android.omninotes.ShortcutActivity"
+194-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:185:7-64
+195            android:icon="@drawable/shortcut_icon"
+195-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:186:7-45
+196            android:label="@string/add_note" >
+196-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:187:7-39
+197            <intent-filter>
+197-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:188:7-191:23
+198                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+198-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:189:9-72
+198-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:189:17-69
+199
+200                <category android:name="android.intent.category.DEFAULT" />
+200-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:90:9-68
+200-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:90:19-65
+201            </intent-filter>
+202        </activity>
+203
+204        <!-- Stats -->
+205        <activity
+205-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:195:5-197:70
+206            android:name="it.feio.android.omninotes.StatsActivity"
+206-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:196:7-61
+207            android:theme="@style/Theme.MaterialComponents.Light.Dialog" />
+207-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:197:7-67
+208        <activity
+208-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:198:5-200:70
+209            android:name="it.feio.android.omninotes.NoteInfosActivity"
+209-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:199:7-65
+210            android:theme="@style/Theme.MaterialComponents.Light.Dialog" />
+210-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:200:7-67
+211
+212        <!-- Alarm broadcast receiver -->
+213        <receiver android:name="it.feio.android.omninotes.receiver.AlarmReceiver" />
+213-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:203:5-81
+213-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:203:15-78
+214
+215        <!-- Reboot broadcast receiver -->
+216        <receiver
+216-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:206:5-215:16
+217            android:name="it.feio.android.omninotes.receiver.BootCompleteReceiver"
+217-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:207:7-52
+218            android:enabled="true"
+218-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:208:7-29
+219            android:exported="false"
+219-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:209:7-31
+220            android:label="BootCompleteReceiver"
+220-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:210:7-43
+221            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+221-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:211:7-69
+222            <intent-filter>
+222-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:212:7-214:23
+223                <action android:name="android.intent.action.BOOT_COMPLETED" />
+223-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:213:9-71
+223-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:213:17-68
+224            </intent-filter>
+225        </receiver>
+226
+227        <!-- Restore on reboot alarm service -->
+228        <service
+228-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:218:5-220:66
+229            android:name="it.feio.android.omninotes.async.AlarmRestoreOnRebootService"
+229-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:219:7-56
+230            android:permission="android.permission.BIND_JOB_SERVICE" />
+230-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:220:7-63
+231
+232        <!-- Notification listener service -->
+233        <service
+233-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:223:5-230:15
+234            android:name="it.feio.android.omninotes.services.NotificationListener"
+234-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:224:7-52
+235            android:label="@string/app_name"
+235-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:225:7-39
+236            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+236-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:226:7-81
+237            <intent-filter>
+237-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:227:7-229:23
+238                <action android:name="android.service.notification.NotificationListenerService" />
+238-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:228:9-91
+238-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:228:17-88
+239            </intent-filter>
+240        </service>
+241
+242        <!-- Data export and import service -->
+243        <service android:name="it.feio.android.omninotes.async.DataBackupIntentService" />
+243-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:233:5-87
+243-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:233:14-84
+244
+245        <!-- Widget configuration Activity -->
+246        <activity
+246-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:236:5-242:16
+247            android:name="it.feio.android.omninotes.widget.WidgetConfigurationActivity"
+247-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:237:7-82
+248            android:theme="@style/Theme.MaterialComponents.Light.Dialog" >
+248-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:238:7-67
+249            <intent-filter>
+249-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:239:7-241:23
+250                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+250-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:240:9-79
+250-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:240:17-76
+251            </intent-filter>
+252        </activity>
+253
+254        <!-- Widget Simple -->
+255        <receiver
+255-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:245:5-257:16
+256            android:name="it.feio.android.omninotes.widget.SimpleWidgetProvider"
+256-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:246:7-75
+257            android:description="@string/widget_simple_description"
+257-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:247:7-62
+258            android:icon="@drawable/logo"
+258-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:248:7-36
+259            android:label="@string/app_name" >
+259-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:249:7-39
+260            <intent-filter>
+260-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:250:7-252:23
+261                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+261-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:251:9-76
+261-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:251:17-73
+262            </intent-filter>
+263
+264            <meta-data
+264-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:254:7-256:52
+265                android:name="android.appwidget.provider"
+265-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:255:9-50
+266                android:resource="@xml/appwidget_simple" />
+266-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:256:9-49
+267        </receiver>
+268        <!-- Widget List -->
+269        <receiver
+269-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:259:5-271:16
+270            android:name="it.feio.android.omninotes.widget.ListWidgetProvider"
+270-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:260:7-73
+271            android:description="@string/widget_list_description"
+271-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:261:7-60
+272            android:icon="@drawable/logo"
+272-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:262:7-36
+273            android:label="@string/app_name" >
+273-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:263:7-39
+274            <intent-filter>
+274-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:250:7-252:23
+275                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+275-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:251:9-76
+275-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:251:17-73
+276            </intent-filter>
+277
+278            <meta-data
+278-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:254:7-256:52
+279                android:name="android.appwidget.provider"
+279-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:255:9-50
+280                android:resource="@xml/appwidget_list" />
+280-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:256:9-49
+281        </receiver>
+282
+283        <service
+283-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:273:5-275:66
+284            android:name="it.feio.android.omninotes.widget.ListWidgetService"
+284-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:274:7-72
+285            android:permission="android.permission.BIND_REMOTEVIEWS" />
+285-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:275:7-63
+286
+287        <!-- DashClock plugin service -->
+288        <service
+288-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:278:5-296:15
+289            android:name="it.feio.android.omninotes.extensions.ONDashClockExtension"
+289-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:279:7-54
+290            android:icon="@drawable/ic_stat_literal_icon"
+290-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:280:7-52
+291            android:label="@string/app_name"
+291-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:281:7-39
+292            android:permission="com.google.android.apps.dashclock.permission.READ_EXTENSION_DATA" >
+292-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:282:7-92
+293            <intent-filter>
+293-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:283:7-285:23
+294                <action android:name="com.google.android.apps.dashclock.Extension" />
+294-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:284:9-78
+294-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:284:17-75
+295            </intent-filter>
+296
+297            <meta-data
+297-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:287:7-289:29
+298                android:name="protocolVersion"
+298-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:288:9-39
+299                android:value="2" />
+299-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:289:9-26
+300            <meta-data
+300-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:290:7-292:32
+301                android:name="worldReadable"
+301-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:291:9-37
+302                android:value="true" />
+302-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:292:9-29
+303            <meta-data
+303-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:293:7-295:57
+304                android:name="description"
+304-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:294:9-35
+305                android:value="@string/dashclock_description" />
+305-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:295:9-54
+306        </service>
+307        <service
+307-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:298:5-307:15
+308            android:name="it.feio.android.omninotes.extensions.PushBulletExtension"
+308-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:299:7-78
+309            android:permission="com.pushbullet.android.permission.READ_MESSAGING_EXTENSION_DATA" >
+309-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:300:7-91
+310            <intent-filter>
+310-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:301:7-303:23
+311                <action android:name="com.pushbullet.android.extension.MessagingExtension" />
+311-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:302:9-86
+311-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:302:17-83
+312            </intent-filter>
+313
+314            <meta-data
+314-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:287:7-289:29
+315                android:name="protocolVersion"
+315-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:288:9-39
+316                android:value="1" />
+316-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:289:9-26
+317        </service>
+318
+319        <provider
+320            android:name="androidx.core.content.FileProvider"
+320-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:310:7-56
+321            android:authorities="it.feio.android.omninotes.alpha.authority"
+321-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:311:7-55
+322            android:exported="false"
+322-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:312:7-31
+323            android:grantUriPermissions="true" >
+323-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:313:7-41
+324            <meta-data
+324-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:314:7-316:55
+325                android:name="android.support.FILE_PROVIDER_PATHS"
+325-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:315:9-59
+326                android:resource="@xml/file_provider_paths" />
+326-->/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:316:9-52
+327        </provider>
+328
+329        <service
+329-->[io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:19:9-21:40
+330            android:name="io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService"
+330-->[io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:20:13-132
+331            android:exported="false" />
+331-->[io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:21:13-37
+332        <service
+332-->[io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:22:9-24:40
+333            android:name="io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService"
+333-->[io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:23:13-127
+334            android:exported="false" />
+334-->[io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:24:13-37
+335        <service
+335-->[io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:25:9-27:40
+336            android:name="io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService"
+336-->[io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:26:13-120
+337            android:exported="false" />
+337-->[io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:27:13-37
+338
+339        <activity
+339-->[com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/b10e95f5ef2b7b1ad6ad5e7291b61821/jetified-rxpermissions-0.4.2/AndroidManifest.xml:11:9-14:75
+340            android:name="com.tbruyelle.rxpermissions.ShadowActivity"
+340-->[com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/b10e95f5ef2b7b1ad6ad5e7291b61821/jetified-rxpermissions-0.4.2/AndroidManifest.xml:12:13-70
+341            android:launchMode="singleTop"
+341-->[com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/b10e95f5ef2b7b1ad6ad5e7291b61821/jetified-rxpermissions-0.4.2/AndroidManifest.xml:13:13-43
+342            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+342-->[com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/b10e95f5ef2b7b1ad6ad5e7291b61821/jetified-rxpermissions-0.4.2/AndroidManifest.xml:14:13-72
+343        <activity
+343-->[com.google.android.gms:play-services-base:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e47e66b843d87bfdc999e3666e733d76/jetified-play-services-base-9.0.2/AndroidManifest.xml:20:9-22:45
+344            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+344-->[com.google.android.gms:play-services-base:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e47e66b843d87bfdc999e3666e733d76/jetified-play-services-base-9.0.2/AndroidManifest.xml:20:19-85
+345            android:exported="false"
+345-->[com.google.android.gms:play-services-base:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e47e66b843d87bfdc999e3666e733d76/jetified-play-services-base-9.0.2/AndroidManifest.xml:22:19-43
+346            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+346-->[com.google.android.gms:play-services-base:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e47e66b843d87bfdc999e3666e733d76/jetified-play-services-base-9.0.2/AndroidManifest.xml:21:19-78
+347
+348        <provider
+348-->[com.google.firebase:firebase-common:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/724e7f7c8b4dd0bd9476750aa2c64e84/jetified-firebase-common-9.0.2/AndroidManifest.xml:7:9-11:39
+349            android:name="com.google.firebase.provider.FirebaseInitProvider"
+349-->[com.google.firebase:firebase-common:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/724e7f7c8b4dd0bd9476750aa2c64e84/jetified-firebase-common-9.0.2/AndroidManifest.xml:9:13-58
+350            android:authorities="it.feio.android.omninotes.alpha.firebaseinitprovider"
+350-->[com.google.firebase:firebase-common:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/724e7f7c8b4dd0bd9476750aa2c64e84/jetified-firebase-common-9.0.2/AndroidManifest.xml:8:13-72
+351            android:exported="false"
+351-->[com.google.firebase:firebase-common:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/724e7f7c8b4dd0bd9476750aa2c64e84/jetified-firebase-common-9.0.2/AndroidManifest.xml:10:13-37
+352            android:initOrder="100" />
+352-->[com.google.firebase:firebase-common:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/724e7f7c8b4dd0bd9476750aa2c64e84/jetified-firebase-common-9.0.2/AndroidManifest.xml:11:13-36
+353
+354        <service
+354-->[ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:27:9-31:39
+355            android:name="org.acra.sender.LegacySenderService"
+355-->[ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:28:13-63
+356            android:enabled="@bool/acra_enable_legacy_service"
+356-->[ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:29:13-63
+357            android:exported="false"
+357-->[ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:30:13-37
+358            android:process=":acra" />
+358-->[ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:31:13-36
+359        <service
+359-->[ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:32:9-37:39
+360            android:name="org.acra.sender.JobSenderService"
+360-->[ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:33:13-60
+361            android:enabled="@bool/acra_enable_job_service"
+361-->[ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:34:13-60
+362            android:exported="false"
+362-->[ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:35:13-37
+363            android:permission="android.permission.BIND_JOB_SERVICE"
+363-->[ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:36:13-69
+364            android:process=":acra" />
+364-->[ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:37:13-36
+365
+366        <provider
+366-->[ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:39:9-45:51
+367            android:name="org.acra.attachment.AcraContentProvider"
+367-->[ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:40:13-67
+368            android:authorities="it.feio.android.omninotes.alpha.acra"
+368-->[ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:41:13-56
+369            android:exported="false"
+369-->[ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:42:13-37
+370            android:grantUriPermissions="true"
+370-->[ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:43:13-47
+371            android:process=":acra" />
+371-->[ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:44:13-36
+372    </application>
+373
+374</manifest>

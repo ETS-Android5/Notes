@@ -1,0 +1,7 @@
+#Fri Feb 04 23:21:41 EET 2022
+base.1=/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/dex/alphaDebugAndroidTest/mergeProjectDexAlphaDebugAndroidTest/classes.dex
+path.1=classes.dex
+base.0=/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/dex/alphaDebugAndroidTest/mergeExtDexAlphaDebugAndroidTest/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

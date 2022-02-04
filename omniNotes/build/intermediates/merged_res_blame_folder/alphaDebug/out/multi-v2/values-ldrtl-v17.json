@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "map": [
+                {
+                    "source": "/Users/yehiaali/.gradle/caches/transforms-2/files-2.1/69afef3b4529077e08c2e4b5352908de/jetified-sublimepickerlibrary-2.1.2/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,122",
+                        "endColumns": "66,68",
+                        "endOffsets": "117,186"
+                    },
+                    "to": {
+                        "startLines": "4,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "332,399",
+                        "endColumns": "66,68",
+                        "endOffsets": "394,463"
+                    }
+                },
+                {
+                    "source": "/Users/yehiaali/.gradle/caches/transforms-2/files-2.1/62c701434fad4be856701a07be788cd0/material-1.4.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,191",
+                        "endColumns": "135,140",
+                        "endOffsets": "186,327"
+                    }
+                }
+            ]
+        }
+    ]
+}

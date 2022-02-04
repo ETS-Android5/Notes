@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/values-hdpi/dimens.xml",
+                    "from": {
+                        "startLines": "18",
+                        "startColumns": "2",
+                        "startOffsets": "751",
+                        "endColumns": "53",
+                        "endOffsets": "802"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                },
+                {
+                    "source": "/Users/yehiaali/.gradle/caches/transforms-2/files-2.1/4079389b9b8fe8239242e4ade9044653/appcompat-1.2.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "111",
+                        "endLines": "7",
+                        "endColumns": "13",
+                        "endOffsets": "383"
+                    }
+                }
+            ]
+        }
+    ]
+}

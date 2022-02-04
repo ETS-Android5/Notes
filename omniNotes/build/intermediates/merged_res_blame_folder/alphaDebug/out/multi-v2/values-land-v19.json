@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-land-v19/values-land-v19.xml",
+            "map": [
+                {
+                    "source": "/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/res/values-land-v19/bools.xml",
+                    "from": {
+                        "startLines": "19",
+                        "startColumns": "2",
+                        "startOffsets": "790",
+                        "endColumns": "43",
+                        "endOffsets": "831"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    }
+                }
+            ]
+        }
+    ]
+}

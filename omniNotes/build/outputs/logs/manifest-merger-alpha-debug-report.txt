@@ -1,0 +1,915 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:309:5-317:16
+	android:grantUriPermissions
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:313:7-41
+	android:authorities
+		INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:311:7-55
+	android:exported
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:312:7-31
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:310:7-56
+manifest
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:18:1-321:12
+INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:18:1-321:12
+INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:18:1-321:12
+INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:18:1-321:12
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:2:1-35:12
+MERGED from [com.github.federicoiosue:analitica:0.0.3] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/c31c55613a218f4f8873aac61f427630/jetified-analitica-0.0.3-googleAnalyticsRelease/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2612049557d36db54076059b70604b89/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:16:1-28:12
+MERGED from [androidx.databinding:viewbinding:4.1.3] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/720dfc2c2856bfd6f36a5b041458ed05/jetified-viewbinding-4.1.3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.larswerkman:HoloColorPicker:1.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/4e8a697b8498c2685fedc34700054619/jetified-HoloColorPicker-1.4/AndroidManifest.xml:1:68-5:12
+MERGED from [de.keyboardsurfer.android.widget:crouton:1.8.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/ce2d274a9748cf5c1070bd810a431058/jetified-crouton-1.8.4/AndroidManifest.xml:15:116-18:12
+MERGED from [ch.acra:acra-http:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/6e9e2d9da469c4a0dabe7a44accc0940/jetified-acra-http-5.7.0/AndroidManifest.xml:17:1-27:12
+MERGED from [ch.acra:acra-toast:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d6755cfd08f794548fdc809f10680e22/jetified-acra-toast-5.7.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.github.gabrielemariotti.changeloglib:changelog:2.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/7118fec2fcdd4dfd05788ec5f36030b8/jetified-changelog-2.0.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.appeaser.sublimepickerlibrary:sublimepickerlibrary:2.1.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/69afef3b4529077e08c2e4b5352908de/jetified-sublimepickerlibrary-2.1.2/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.preference:preference:1.1.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/c42418eb1f8b641d69563f61fad7199f/preference-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/62c701434fad4be856701a07be788cd0/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.afollestad.material-dialogs:commons:0.9.6.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/af78ec27607af6ad4d11b6e78dede3e8/jetified-commons-0.9.6.0/AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.afollestad.material-dialogs:core:0.9.6.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/f2eccc6522868cf53becd3499f67d9b2/jetified-core-0.9.6.0/AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/37a94d2cd587fedc9a6bbd9ec4d3f52a/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/5f95ae84c1a46eda96f1dd436a3047e8/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/7ece9d5ee263e7dda6c509fd221d987d/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.pushbullet:android-extensions:1.0.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/3d99a24bdb8f068e6d0e99fa81658a16/jetified-android-extensions-1.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.getbase:floatingactionbutton:1.10.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e9d493b65b82055d5d7cd59028e4333e/jetified-floatingactionbutton-1.10.1/AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.federicoiosue:simplegallery:3.0.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d43d899c0ce7a26c89f7bcb4de2d2ce5/jetified-simplegallery-3.0.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/a0b23c80b84613433cbcffd8b4f1ea48/jetified-glide-4.8.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.jakewharton:butterknife:10.2.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/4e5488b32964a32f4cfda8af8c3e25ea/jetified-butterknife-10.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.pnikosis:materialish-progress:1.5] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/aeae4bb8232e836fe78996d42c1b785f/jetified-materialish-progress-1.5/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.paolorotolo:appintro:1.3.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/ca8812f26dff7cd109abccc4d3ea874c/jetified-appintro-1.3.0/AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex:rxandroid:1.0.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/10882fa85a187c3000c59b04ed14d575/jetified-rxandroid-1.0.1/AndroidManifest.xml:15:1-21:12
+MERGED from [com.artemzin.rxjava:proguard-rules:1.0.14.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/1d90608d9fe687d924ad1f7b46457c3a/jetified-proguard-rules-1.0.14.2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/b10e95f5ef2b7b1ad6ad5e7291b61821/jetified-rxpermissions-0.4.2/AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.bosphere.android-filelogger:filelogger:1.0.7] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/ae23f02629907e7339d4f09a68822d57/jetified-filelogger-1.0.7/AndroidManifest.xml:2:1-10:12
+MERGED from [com.github.sevar83:indeterminate-checkbox:1.0.5] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e12c7f8b32ea5f9321a226f4f6bc6ca6/jetified-indeterminate-checkbox-1.0.5/AndroidManifest.xml:2:1-17:12
+MERGED from [com.pixplicity.easyprefs:library:1.9.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/11f8b2d08b1d1ee5b7f5cf7589349e50/jetified-library-1.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.federicoiosue:checklistview:4.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d18e008ec0eac97d48d829e82db06389/jetified-checklistview-4.1.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.federicoiosue:pixlui:3.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/c3f59683db2a82510e106f5474a0b32d/jetified-pixlui-3.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/9783569f1867784c1668db7f70b1f43b/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-location:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/74e99c696fde74c9c49f0daadf5afb2c/jetified-play-services-location-9.0.2/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/07b8da045ea5aa42da94bee430b9ab61/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-maps:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8af0944acee78f11452c9500e70ecb35/jetified-play-services-maps-9.0.2/AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-base:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e47e66b843d87bfdc999e3666e733d76/jetified-play-services-base-9.0.2/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-common:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/724e7f7c8b4dd0bd9476750aa2c64e84/jetified-firebase-common-9.0.2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/fe60deb81a42b34b4d2a642ccfd64780/jetified-play-services-tasks-9.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2334019d1e964099787423e5af3cb352/jetified-play-services-basement-9.0.2/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/c86d2fa3d54667ccc83302352a1dd63b/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0e43d508f3b326131200608903ec77bd/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d182847ab9a6803ea343390d5b7c3b95/jetified-library-1.4.2/AndroidManifest.xml:6:1-16:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/4079389b9b8fe8239242e4ade9044653/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/33f7fc1af02d807891b5f6d53e518e36/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/9f1f2b67440804a82750713e6d8ee6cb/gridlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/3f7aced2b9ff16f94bcff76651a5f0b9/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d510e76046f09cc6cdc710ad9f6f01b2/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/afa83b6bdc04472eb6390c1c308735e1/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/1e0b81d8c8783ebf6e4c7d2c333b9768/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2c1c3062eaa68e278b11412007b2a1e8/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8da841c0f910dfda6372a8aa2f26765d/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/4d88d6db3496df66c84cfac89a218060/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/10bbeefacdbce566a3ab0b36b94b2fe3/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/681d28d8f1d7005a68435f63531ab05c/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8eb69838a569ebff7f8e5003266ef9cc/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/fe4d3f32fc31eb40d23a23b90b34d0cf/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e7cbf1e3f2aaf5a3cc57fc957da771b4/jetified-gifdecoder-4.8.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/aaf04d934c31ccbec0f9048fc92324e8/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/249f83ac7b84c60ca40aca0d14683fb9/jetified-butterknife-runtime-10.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.media:media:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0a7bc6528ae9409a6ccd7b32bde1bed6/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d5d9181836bf801254e0f8cf88e26ae8/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/9a3b135441f600865089d24fce1af520/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/086de5dd0791671ad6b28881c8ce2fd1/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/99773c097ffeae2d8713de833e077db3/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/207ada2cf927836f882d38e3e07dc977/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d9d643a4a23edc2636eb9fd43b95643c/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:17:1-48:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/5e1956c6d65eb194afdbd7e43aa5477e/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/76091e2c7276f8c6544422f66ec8fdee/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d5044c02453c72bd6c2eaf084e8861e3/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8532f9065ec540736daa82b51abb05c8/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/1839e51c07be03d5858b07957f50b153/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/4178c8edaa74fbc26e5576d917e16903/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/3b466be4e4b513710334bfe1ede4c263/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/1e5eac7cb0bb947d6c5b893a739680f6/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/a67b0e20c741399d646fff138798c475/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/afcafb657e07cec2ef464c933bb0494b/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/535a7896826605575aa08cb6c89cbb06/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/4411d39d22e9cee11c77a628610d2b58/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/9724fa9a7787224297a490fb0b75079e/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/14bb2190ad2f22259da52ae5987c9666/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:18:1-321:12
+INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:18:1-321:12
+INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:18:1-321:12
+	package
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:20:3-38
+		INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:18:1-321:12
+		INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:19:3-49
+	android:versionCode
+		INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:18:1-321:12
+		INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:18:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:23:3-65
+MERGED from [com.github.federicoiosue:analitica:0.0.3] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/c31c55613a218f4f8873aac61f427630/jetified-analitica-0.0.3-googleAnalyticsRelease/AndroidManifest.xml:11:5-67
+MERGED from [com.github.federicoiosue:analitica:0.0.3] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/c31c55613a218f4f8873aac61f427630/jetified-analitica-0.0.3-googleAnalyticsRelease/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2612049557d36db54076059b70604b89/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2612049557d36db54076059b70604b89/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:21:5-67
+MERGED from [ch.acra:acra-http:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/6e9e2d9da469c4a0dabe7a44accc0940/jetified-acra-http-5.7.0/AndroidManifest.xml:25:5-67
+MERGED from [ch.acra:acra-http:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/6e9e2d9da469c4a0dabe7a44accc0940/jetified-acra-http-5.7.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/07b8da045ea5aa42da94bee430b9ab61/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/07b8da045ea5aa42da94bee430b9ab61/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8af0944acee78f11452c9500e70ecb35/jetified-play-services-maps-9.0.2/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8af0944acee78f11452c9500e70ecb35/jetified-play-services-maps-9.0.2/AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:23:20-62
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:24:3-79
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:12:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:24:20-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:25:3-77
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:14:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:25:20-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:26:3-77
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:13:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:13:5-79
+MERGED from [com.github.federicoiosue:analitica:0.0.3] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/c31c55613a218f4f8873aac61f427630/jetified-analitica-0.0.3-googleAnalyticsRelease/AndroidManifest.xml:12:5-79
+MERGED from [com.github.federicoiosue:analitica:0.0.3] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/c31c55613a218f4f8873aac61f427630/jetified-analitica-0.0.3-googleAnalyticsRelease/AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2612049557d36db54076059b70604b89/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2612049557d36db54076059b70604b89/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/07b8da045ea5aa42da94bee430b9ab61/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/07b8da045ea5aa42da94bee430b9ab61/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8af0944acee78f11452c9500e70ecb35/jetified-play-services-maps-9.0.2/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8af0944acee78f11452c9500e70ecb35/jetified-play-services-maps-9.0.2/AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:26:20-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:27:3-79
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:27:20-76
+uses-permission#android.permission.VIBRATE
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:28:3-64
+MERGED from [com.github.federicoiosue:checklistview:4.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d18e008ec0eac97d48d829e82db06389/jetified-checklistview-4.1.0/AndroidManifest.xml:11:5-66
+MERGED from [com.github.federicoiosue:checklistview:4.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d18e008ec0eac97d48d829e82db06389/jetified-checklistview-4.1.0/AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:28:20-61
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:29:3-79
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:29:20-76
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:30:3-69
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:30:20-66
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:31:3-78
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:31:20-75
+uses-permission#com.android.alarm.permission.SET_ALARM
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:32:3-76
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:32:20-73
+uses-permission#com.google.android.apps.photos.permission.GOOGLE_PHOTOS
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:33:3-93
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:33:20-90
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:34:3-86
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:34:20-83
+uses-permission#com.android.launcher.permission.UNINSTALL_SHORTCUT
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:35:3-88
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:35:20-85
+uses-permission#com.pushbullet.android.permission.READ_MESSAGING_EXTENSION_DATA
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:36:3-101
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:36:20-98
+uses-permission#com.pushbullet.android.permission.SEND_MESSAGES
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:37:3-85
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:37:20-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:38:3-66
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2612049557d36db54076059b70604b89/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2612049557d36db54076059b70604b89/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/07b8da045ea5aa42da94bee430b9ab61/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/07b8da045ea5aa42da94bee430b9ab61/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:38:20-63
+uses-feature#android.hardware.camera
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:40:3-42:32
+	android:required
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:42:5-29
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:41:5-43
+uses-feature#android.hardware.location.gps
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:43:3-45:32
+	android:required
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:45:5-29
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:44:5-49
+application
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:47:3-319:17
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:18:5-33:19
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:18:5-33:19
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2612049557d36db54076059b70604b89/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2612049557d36db54076059b70604b89/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:27:5-20
+MERGED from [com.github.gabrielemariotti.changeloglib:changelog:2.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/7118fec2fcdd4dfd05788ec5f36030b8/jetified-changelog-2.0.0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.gabrielemariotti.changeloglib:changelog:2.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/7118fec2fcdd4dfd05788ec5f36030b8/jetified-changelog-2.0.0/AndroidManifest.xml:11:5-20
+MERGED from [com.appeaser.sublimepickerlibrary:sublimepickerlibrary:2.1.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/69afef3b4529077e08c2e4b5352908de/jetified-sublimepickerlibrary-2.1.2/AndroidManifest.xml:11:5-12:19
+MERGED from [com.appeaser.sublimepickerlibrary:sublimepickerlibrary:2.1.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/69afef3b4529077e08c2e4b5352908de/jetified-sublimepickerlibrary-2.1.2/AndroidManifest.xml:11:5-12:19
+MERGED from [com.google.android.material:material:1.4.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/62c701434fad4be856701a07be788cd0/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/62c701434fad4be856701a07be788cd0/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.github.afollestad.material-dialogs:commons:0.9.6.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/af78ec27607af6ad4d11b6e78dede3e8/jetified-commons-0.9.6.0/AndroidManifest.xml:12:5-20
+MERGED from [com.github.afollestad.material-dialogs:commons:0.9.6.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/af78ec27607af6ad4d11b6e78dede3e8/jetified-commons-0.9.6.0/AndroidManifest.xml:12:5-20
+MERGED from [com.github.afollestad.material-dialogs:core:0.9.6.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/f2eccc6522868cf53becd3499f67d9b2/jetified-core-0.9.6.0/AndroidManifest.xml:13:5-20
+MERGED from [com.github.afollestad.material-dialogs:core:0.9.6.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/f2eccc6522868cf53becd3499f67d9b2/jetified-core-0.9.6.0/AndroidManifest.xml:13:5-20
+MERGED from [com.pushbullet:android-extensions:1.0.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/3d99a24bdb8f068e6d0e99fa81658a16/jetified-android-extensions-1.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.pushbullet:android-extensions:1.0.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/3d99a24bdb8f068e6d0e99fa81658a16/jetified-android-extensions-1.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.getbase:floatingactionbutton:1.10.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e9d493b65b82055d5d7cd59028e4333e/jetified-floatingactionbutton-1.10.1/AndroidManifest.xml:12:5-20
+MERGED from [com.getbase:floatingactionbutton:1.10.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e9d493b65b82055d5d7cd59028e4333e/jetified-floatingactionbutton-1.10.1/AndroidManifest.xml:12:5-20
+MERGED from [com.github.federicoiosue:simplegallery:3.0.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d43d899c0ce7a26c89f7bcb4de2d2ce5/jetified-simplegallery-3.0.1/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.federicoiosue:simplegallery:3.0.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d43d899c0ce7a26c89f7bcb4de2d2ce5/jetified-simplegallery-3.0.1/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/a0b23c80b84613433cbcffd8b4f1ea48/jetified-glide-4.8.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/a0b23c80b84613433cbcffd8b4f1ea48/jetified-glide-4.8.0/AndroidManifest.xml:10:5-20
+MERGED from [com.pnikosis:materialish-progress:1.5] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/aeae4bb8232e836fe78996d42c1b785f/jetified-materialish-progress-1.5/AndroidManifest.xml:11:5-20
+MERGED from [com.pnikosis:materialish-progress:1.5] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/aeae4bb8232e836fe78996d42c1b785f/jetified-materialish-progress-1.5/AndroidManifest.xml:11:5-20
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/b10e95f5ef2b7b1ad6ad5e7291b61821/jetified-rxpermissions-0.4.2/AndroidManifest.xml:10:5-15:19
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/b10e95f5ef2b7b1ad6ad5e7291b61821/jetified-rxpermissions-0.4.2/AndroidManifest.xml:10:5-15:19
+MERGED from [com.github.bosphere.android-filelogger:filelogger:1.0.7] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/ae23f02629907e7339d4f09a68822d57/jetified-filelogger-1.0.7/AndroidManifest.xml:7:5-8:19
+MERGED from [com.github.bosphere.android-filelogger:filelogger:1.0.7] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/ae23f02629907e7339d4f09a68822d57/jetified-filelogger-1.0.7/AndroidManifest.xml:7:5-8:19
+MERGED from [com.github.sevar83:indeterminate-checkbox:1.0.5] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e12c7f8b32ea5f9321a226f4f6bc6ca6/jetified-indeterminate-checkbox-1.0.5/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.sevar83:indeterminate-checkbox:1.0.5] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e12c7f8b32ea5f9321a226f4f6bc6ca6/jetified-indeterminate-checkbox-1.0.5/AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.gms:play-services-location:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/74e99c696fde74c9c49f0daadf5afb2c/jetified-play-services-location-9.0.2/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/74e99c696fde74c9c49f0daadf5afb2c/jetified-play-services-location-9.0.2/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/07b8da045ea5aa42da94bee430b9ab61/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/07b8da045ea5aa42da94bee430b9ab61/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8af0944acee78f11452c9500e70ecb35/jetified-play-services-maps-9.0.2/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8af0944acee78f11452c9500e70ecb35/jetified-play-services-maps-9.0.2/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-base:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e47e66b843d87bfdc999e3666e733d76/jetified-play-services-base-9.0.2/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e47e66b843d87bfdc999e3666e733d76/jetified-play-services-base-9.0.2/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-common:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/724e7f7c8b4dd0bd9476750aa2c64e84/jetified-firebase-common-9.0.2/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.firebase:firebase-common:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/724e7f7c8b4dd0bd9476750aa2c64e84/jetified-firebase-common-9.0.2/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/fe60deb81a42b34b4d2a642ccfd64780/jetified-play-services-tasks-9.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/fe60deb81a42b34b4d2a642ccfd64780/jetified-play-services-tasks-9.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2334019d1e964099787423e5af3cb352/jetified-play-services-basement-9.0.2/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2334019d1e964099787423e5af3cb352/jetified-play-services-basement-9.0.2/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0e43d508f3b326131200608903ec77bd/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0e43d508f3b326131200608903ec77bd/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e7cbf1e3f2aaf5a3cc57fc957da771b4/jetified-gifdecoder-4.8.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e7cbf1e3f2aaf5a3cc57fc957da771b4/jetified-gifdecoder-4.8.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.6.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d9d643a4a23edc2636eb9fd43b95643c/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d9d643a4a23edc2636eb9fd43b95643c/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:26:5-46:19
+MERGED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:26:5-46:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/76091e2c7276f8c6544422f66ec8fdee/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/76091e2c7276f8c6544422f66ec8fdee/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:50:5-48
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d9d643a4a23edc2636eb9fd43b95643c/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:54:5-31
+	android:label
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:52:5-37
+	android:largeHeap
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:53:5-29
+	android:icon
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:51:5-39
+	android:allowBackup
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:49:5-31
+	android:theme
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:55:5-58
+		REJECTED from [com.github.federicoiosue:simplegallery:3.0.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d43d899c0ce7a26c89f7bcb4de2d2ce5/jetified-simplegallery-3.0.1/AndroidManifest.xml:14:9-40
+	tools:replace
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:56:5-34
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:48:5-55
+meta-data#android.app.default_searchable
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:57:5-59:39
+	android:value
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:59:7-36
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:58:7-52
+meta-data#com.google.android.gms.version
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:60:5-63:39
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:29:9-32:45
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:29:9-32:45
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2334019d1e964099787423e5af3cb352/jetified-play-services-basement-9.0.2/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2334019d1e964099787423e5af3cb352/jetified-play-services-basement-9.0.2/AndroidManifest.xml:21:9-23:69
+	tools:replace
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:63:7-36
+	android:value
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:62:7-60
+		REJECTED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:31:13-36
+		REJECTED from [com.google.android.gms:play-services-basement:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2334019d1e964099787423e5af3cb352/jetified-play-services-basement-9.0.2/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:61:7-52
+activity#it.feio.android.omninotes.MainActivity
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:66:5-130:16
+	android:label
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:69:7-39
+	android:launchMode
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:70:7-37
+	android:exported
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:68:7-30
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:67:7-35
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:71:7-74:23
+action#android.intent.action.MAIN
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:72:9-61
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:72:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:73:9-69
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:73:19-66
+meta-data#android.app.shortcuts
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:76:7-78:45
+	android:resource
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:78:9-42
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:77:9-45
+intent-filter#action:name:android.intent.action.SEARCH
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:80:7-82:23
+action#android.intent.action.SEARCH
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:81:9-63
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:81:17-60
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/app_package+data:scheme:app
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:84:7-93:23
+data
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:85:9-87:48
+	android:host
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:87:11-45
+	android:scheme
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:86:11-31
+	android:mimeType
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:104:15-37
+action#android.intent.action.VIEW
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:88:9-61
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:88:17-58
+category#android.intent.category.DEFAULT
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:90:9-68
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:90:19-65
+category#android.intent.category.BROWSABLE
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:91:9-70
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:91:19-67
+meta-data#android.app.searchable
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:95:7-97:46
+	android:resource
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:97:9-43
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:96:9-46
+intent-filter#action:name:com.google.android.gm.action.AUTO_SEND+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:99:7-105:23
+action#com.google.android.gm.action.AUTO_SEND
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:100:9-73
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:100:17-70
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:106:7-112:23
+action#android.intent.action.SEND
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:107:9-61
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:107:17-58
+intent-filter#action:name:android.intent.action.SEND_MULTIPLE+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:113:7-119:23
+action#android.intent.action.SEND_MULTIPLE
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:114:9-70
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:114:17-67
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:hashtag
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:121:7-128:23
+activity#it.feio.android.omninotes.GalleryActivity
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:133:5-136:65
+	android:configChanges
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:135:7-68
+	android:theme
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:136:7-62
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:134:7-63
+activity#it.feio.android.omninotes.CategoryActivity
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:138:5-146:16
+	android:parentActivityName
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:141:7-74
+	android:label
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:140:7-54
+	android:theme
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:142:7-67
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:139:7-64
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:143:7-145:41
+	android:value
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:145:9-38
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:144:9-55
+activity#it.feio.android.omninotes.SettingsActivity
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:149:5-156:16
+	android:parentActivityName
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:152:7-74
+	android:label
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:151:7-39
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:150:7-64
+activity#it.feio.android.omninotes.PasswordActivity
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:159:5-162:64
+	android:windowSoftInputMode
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:162:7-61
+	android:theme
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:161:7-59
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:160:7-64
+activity#it.feio.android.omninotes.AboutActivity
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:165:5-168:40
+	android:label
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:167:7-51
+	android:launchMode
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:168:7-37
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:166:7-61
+activity#it.feio.android.omninotes.intro.IntroActivity
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:171:5-173:42
+	android:label
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:173:7-39
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:172:7-42
+activity#it.feio.android.omninotes.SnoozeActivity
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:176:5-181:57
+	android:excludeFromRecents
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:178:7-40
+	android:launchMode
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:179:7-42
+	android:noHistory
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:180:7-31
+	android:theme
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:181:7-54
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:177:7-62
+activity#it.feio.android.omninotes.ShortcutActivity
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:184:5-192:16
+	android:label
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:187:7-39
+	android:icon
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:186:7-45
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:185:7-64
+intent-filter#action:name:android.intent.action.CREATE_SHORTCUT+category:name:android.intent.category.DEFAULT
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:188:7-191:23
+action#android.intent.action.CREATE_SHORTCUT
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:189:9-72
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:189:17-69
+activity#it.feio.android.omninotes.StatsActivity
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:195:5-197:70
+	android:theme
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:197:7-67
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:196:7-61
+activity#it.feio.android.omninotes.NoteInfosActivity
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:198:5-200:70
+	android:theme
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:200:7-67
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:199:7-65
+receiver#it.feio.android.omninotes.receiver.AlarmReceiver
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:203:5-81
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:203:15-78
+receiver#it.feio.android.omninotes.receiver.BootCompleteReceiver
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:206:5-215:16
+	android:enabled
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:208:7-29
+	android:label
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:210:7-43
+	android:exported
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:209:7-31
+	android:permission
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:211:7-69
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:207:7-52
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:212:7-214:23
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:213:9-71
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:213:17-68
+service#it.feio.android.omninotes.async.AlarmRestoreOnRebootService
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:218:5-220:66
+	android:permission
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:220:7-63
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:219:7-56
+service#it.feio.android.omninotes.services.NotificationListener
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:223:5-230:15
+	android:label
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:225:7-39
+	android:permission
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:226:7-81
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:224:7-52
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:227:7-229:23
+action#android.service.notification.NotificationListenerService
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:228:9-91
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:228:17-88
+service#it.feio.android.omninotes.async.DataBackupIntentService
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:233:5-87
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:233:14-84
+activity#it.feio.android.omninotes.widget.WidgetConfigurationActivity
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:236:5-242:16
+	android:theme
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:238:7-67
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:237:7-82
+intent-filter#action:name:android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:239:7-241:23
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:240:9-79
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:240:17-76
+receiver#it.feio.android.omninotes.widget.SimpleWidgetProvider
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:245:5-257:16
+	android:label
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:249:7-39
+	android:icon
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:248:7-36
+	android:description
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:247:7-62
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:246:7-75
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:250:7-252:23
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:251:9-76
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:251:17-73
+meta-data#android.appwidget.provider
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:254:7-256:52
+	android:resource
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:256:9-49
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:255:9-50
+receiver#it.feio.android.omninotes.widget.ListWidgetProvider
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:259:5-271:16
+	android:label
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:263:7-39
+	android:icon
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:262:7-36
+	android:description
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:261:7-60
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:260:7-73
+service#it.feio.android.omninotes.widget.ListWidgetService
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:273:5-275:66
+	android:permission
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:275:7-63
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:274:7-72
+service#it.feio.android.omninotes.extensions.ONDashClockExtension
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:278:5-296:15
+	android:label
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:281:7-39
+	android:permission
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:282:7-92
+	android:icon
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:280:7-52
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:279:7-54
+intent-filter#action:name:com.google.android.apps.dashclock.Extension
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:283:7-285:23
+action#com.google.android.apps.dashclock.Extension
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:284:9-78
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:284:17-75
+meta-data#protocolVersion
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:287:7-289:29
+	android:value
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:289:9-26
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:288:9-39
+meta-data#worldReadable
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:290:7-292:32
+	android:value
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:292:9-29
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:291:9-37
+meta-data#description
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:293:7-295:57
+	android:value
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:295:9-54
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:294:9-35
+service#it.feio.android.omninotes.extensions.PushBulletExtension
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:298:5-307:15
+	android:permission
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:300:7-91
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:299:7-78
+intent-filter#action:name:com.pushbullet.android.extension.MessagingExtension
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:301:7-303:23
+action#com.pushbullet.android.extension.MessagingExtension
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:302:9-86
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:302:17-83
+uses-sdk
+INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml
+INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:8:5-10:41
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.federicoiosue:analitica:0.0.3] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/c31c55613a218f4f8873aac61f427630/jetified-analitica-0.0.3-googleAnalyticsRelease/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.federicoiosue:analitica:0.0.3] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/c31c55613a218f4f8873aac61f427630/jetified-analitica-0.0.3-googleAnalyticsRelease/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2612049557d36db54076059b70604b89/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2612049557d36db54076059b70604b89/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:18:5-42
+MERGED from [androidx.databinding:viewbinding:4.1.3] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/720dfc2c2856bfd6f36a5b041458ed05/jetified-viewbinding-4.1.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.3] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/720dfc2c2856bfd6f36a5b041458ed05/jetified-viewbinding-4.1.3/AndroidManifest.xml:20:5-44
+MERGED from [com.larswerkman:HoloColorPicker:1.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/4e8a697b8498c2685fedc34700054619/jetified-HoloColorPicker-1.4/AndroidManifest.xml:3:5-72
+MERGED from [com.larswerkman:HoloColorPicker:1.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/4e8a697b8498c2685fedc34700054619/jetified-HoloColorPicker-1.4/AndroidManifest.xml:3:5-72
+MERGED from [de.keyboardsurfer.android.widget:crouton:1.8.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/ce2d274a9748cf5c1070bd810a431058/jetified-crouton-1.8.4/AndroidManifest.xml:16:5-72
+MERGED from [de.keyboardsurfer.android.widget:crouton:1.8.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/ce2d274a9748cf5c1070bd810a431058/jetified-crouton-1.8.4/AndroidManifest.xml:16:5-72
+MERGED from [ch.acra:acra-http:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/6e9e2d9da469c4a0dabe7a44accc0940/jetified-acra-http-5.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [ch.acra:acra-http:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/6e9e2d9da469c4a0dabe7a44accc0940/jetified-acra-http-5.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [ch.acra:acra-toast:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d6755cfd08f794548fdc809f10680e22/jetified-acra-toast-5.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [ch.acra:acra-toast:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d6755cfd08f794548fdc809f10680e22/jetified-acra-toast-5.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.github.gabrielemariotti.changeloglib:changelog:2.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/7118fec2fcdd4dfd05788ec5f36030b8/jetified-changelog-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.gabrielemariotti.changeloglib:changelog:2.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/7118fec2fcdd4dfd05788ec5f36030b8/jetified-changelog-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.appeaser.sublimepickerlibrary:sublimepickerlibrary:2.1.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/69afef3b4529077e08c2e4b5352908de/jetified-sublimepickerlibrary-2.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.appeaser.sublimepickerlibrary:sublimepickerlibrary:2.1.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/69afef3b4529077e08c2e4b5352908de/jetified-sublimepickerlibrary-2.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/c42418eb1f8b641d69563f61fad7199f/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/c42418eb1f8b641d69563f61fad7199f/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/62c701434fad4be856701a07be788cd0/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/62c701434fad4be856701a07be788cd0/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.afollestad.material-dialogs:commons:0.9.6.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/af78ec27607af6ad4d11b6e78dede3e8/jetified-commons-0.9.6.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.afollestad.material-dialogs:commons:0.9.6.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/af78ec27607af6ad4d11b6e78dede3e8/jetified-commons-0.9.6.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.afollestad.material-dialogs:core:0.9.6.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/f2eccc6522868cf53becd3499f67d9b2/jetified-core-0.9.6.0/AndroidManifest.xml:8:5-11:75
+MERGED from [com.github.afollestad.material-dialogs:core:0.9.6.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/f2eccc6522868cf53becd3499f67d9b2/jetified-core-0.9.6.0/AndroidManifest.xml:8:5-11:75
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/37a94d2cd587fedc9a6bbd9ec4d3f52a/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/37a94d2cd587fedc9a6bbd9ec4d3f52a/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/5f95ae84c1a46eda96f1dd436a3047e8/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/5f95ae84c1a46eda96f1dd436a3047e8/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/7ece9d5ee263e7dda6c509fd221d987d/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/7ece9d5ee263e7dda6c509fd221d987d/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.pushbullet:android-extensions:1.0.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/3d99a24bdb8f068e6d0e99fa81658a16/jetified-android-extensions-1.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.pushbullet:android-extensions:1.0.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/3d99a24bdb8f068e6d0e99fa81658a16/jetified-android-extensions-1.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.getbase:floatingactionbutton:1.10.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e9d493b65b82055d5d7cd59028e4333e/jetified-floatingactionbutton-1.10.1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.getbase:floatingactionbutton:1.10.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e9d493b65b82055d5d7cd59028e4333e/jetified-floatingactionbutton-1.10.1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.federicoiosue:simplegallery:3.0.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d43d899c0ce7a26c89f7bcb4de2d2ce5/jetified-simplegallery-3.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.federicoiosue:simplegallery:3.0.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d43d899c0ce7a26c89f7bcb4de2d2ce5/jetified-simplegallery-3.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/a0b23c80b84613433cbcffd8b4f1ea48/jetified-glide-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/a0b23c80b84613433cbcffd8b4f1ea48/jetified-glide-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.jakewharton:butterknife:10.2.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/4e5488b32964a32f4cfda8af8c3e25ea/jetified-butterknife-10.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.2.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/4e5488b32964a32f4cfda8af8c3e25ea/jetified-butterknife-10.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.pnikosis:materialish-progress:1.5] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/aeae4bb8232e836fe78996d42c1b785f/jetified-materialish-progress-1.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.5] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/aeae4bb8232e836fe78996d42c1b785f/jetified-materialish-progress-1.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.paolorotolo:appintro:1.3.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/ca8812f26dff7cd109abccc4d3ea874c/jetified-appintro-1.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.paolorotolo:appintro:1.3.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/ca8812f26dff7cd109abccc4d3ea874c/jetified-appintro-1.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex:rxandroid:1.0.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/10882fa85a187c3000c59b04ed14d575/jetified-rxandroid-1.0.1/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.0.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/10882fa85a187c3000c59b04ed14d575/jetified-rxandroid-1.0.1/AndroidManifest.xml:19:5-43
+MERGED from [com.artemzin.rxjava:proguard-rules:1.0.14.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/1d90608d9fe687d924ad1f7b46457c3a/jetified-proguard-rules-1.0.14.2/AndroidManifest.xml:8:5-43
+MERGED from [com.artemzin.rxjava:proguard-rules:1.0.14.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/1d90608d9fe687d924ad1f7b46457c3a/jetified-proguard-rules-1.0.14.2/AndroidManifest.xml:8:5-43
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/b10e95f5ef2b7b1ad6ad5e7291b61821/jetified-rxpermissions-0.4.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/b10e95f5ef2b7b1ad6ad5e7291b61821/jetified-rxpermissions-0.4.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bosphere.android-filelogger:filelogger:1.0.7] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/ae23f02629907e7339d4f09a68822d57/jetified-filelogger-1.0.7/AndroidManifest.xml:5:5-43
+MERGED from [com.github.bosphere.android-filelogger:filelogger:1.0.7] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/ae23f02629907e7339d4f09a68822d57/jetified-filelogger-1.0.7/AndroidManifest.xml:5:5-43
+MERGED from [com.github.sevar83:indeterminate-checkbox:1.0.5] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e12c7f8b32ea5f9321a226f4f6bc6ca6/jetified-indeterminate-checkbox-1.0.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.sevar83:indeterminate-checkbox:1.0.5] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e12c7f8b32ea5f9321a226f4f6bc6ca6/jetified-indeterminate-checkbox-1.0.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.pixplicity.easyprefs:library:1.9.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/11f8b2d08b1d1ee5b7f5cf7589349e50/jetified-library-1.9.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.pixplicity.easyprefs:library:1.9.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/11f8b2d08b1d1ee5b7f5cf7589349e50/jetified-library-1.9.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.federicoiosue:checklistview:4.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d18e008ec0eac97d48d829e82db06389/jetified-checklistview-4.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.federicoiosue:checklistview:4.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d18e008ec0eac97d48d829e82db06389/jetified-checklistview-4.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.federicoiosue:pixlui:3.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/c3f59683db2a82510e106f5474a0b32d/jetified-pixlui-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.federicoiosue:pixlui:3.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/c3f59683db2a82510e106f5474a0b32d/jetified-pixlui-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/9783569f1867784c1668db7f70b1f43b/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/9783569f1867784c1668db7f70b1f43b/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/74e99c696fde74c9c49f0daadf5afb2c/jetified-play-services-location-9.0.2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/74e99c696fde74c9c49f0daadf5afb2c/jetified-play-services-location-9.0.2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/07b8da045ea5aa42da94bee430b9ab61/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/07b8da045ea5aa42da94bee430b9ab61/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8af0944acee78f11452c9500e70ecb35/jetified-play-services-maps-9.0.2/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8af0944acee78f11452c9500e70ecb35/jetified-play-services-maps-9.0.2/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e47e66b843d87bfdc999e3666e733d76/jetified-play-services-base-9.0.2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e47e66b843d87bfdc999e3666e733d76/jetified-play-services-base-9.0.2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/724e7f7c8b4dd0bd9476750aa2c64e84/jetified-firebase-common-9.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/724e7f7c8b4dd0bd9476750aa2c64e84/jetified-firebase-common-9.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/fe60deb81a42b34b4d2a642ccfd64780/jetified-play-services-tasks-9.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/fe60deb81a42b34b4d2a642ccfd64780/jetified-play-services-tasks-9.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2334019d1e964099787423e5af3cb352/jetified-play-services-basement-9.0.2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2334019d1e964099787423e5af3cb352/jetified-play-services-basement-9.0.2/AndroidManifest.xml:18:5-42
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/c86d2fa3d54667ccc83302352a1dd63b/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/c86d2fa3d54667ccc83302352a1dd63b/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0e43d508f3b326131200608903ec77bd/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0e43d508f3b326131200608903ec77bd/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d182847ab9a6803ea343390d5b7c3b95/jetified-library-1.4.2/AndroidManifest.xml:12:5-14:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d182847ab9a6803ea343390d5b7c3b95/jetified-library-1.4.2/AndroidManifest.xml:12:5-14:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/4079389b9b8fe8239242e4ade9044653/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/4079389b9b8fe8239242e4ade9044653/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/33f7fc1af02d807891b5f6d53e518e36/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/33f7fc1af02d807891b5f6d53e518e36/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/9f1f2b67440804a82750713e6d8ee6cb/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/9f1f2b67440804a82750713e6d8ee6cb/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/3f7aced2b9ff16f94bcff76651a5f0b9/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/3f7aced2b9ff16f94bcff76651a5f0b9/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d510e76046f09cc6cdc710ad9f6f01b2/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d510e76046f09cc6cdc710ad9f6f01b2/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/afa83b6bdc04472eb6390c1c308735e1/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/afa83b6bdc04472eb6390c1c308735e1/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/1e0b81d8c8783ebf6e4c7d2c333b9768/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/1e0b81d8c8783ebf6e4c7d2c333b9768/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2c1c3062eaa68e278b11412007b2a1e8/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/2c1c3062eaa68e278b11412007b2a1e8/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8da841c0f910dfda6372a8aa2f26765d/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8da841c0f910dfda6372a8aa2f26765d/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/4d88d6db3496df66c84cfac89a218060/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/4d88d6db3496df66c84cfac89a218060/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/10bbeefacdbce566a3ab0b36b94b2fe3/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/10bbeefacdbce566a3ab0b36b94b2fe3/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/681d28d8f1d7005a68435f63531ab05c/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/681d28d8f1d7005a68435f63531ab05c/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8eb69838a569ebff7f8e5003266ef9cc/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8eb69838a569ebff7f8e5003266ef9cc/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/fe4d3f32fc31eb40d23a23b90b34d0cf/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/fe4d3f32fc31eb40d23a23b90b34d0cf/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e7cbf1e3f2aaf5a3cc57fc957da771b4/jetified-gifdecoder-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e7cbf1e3f2aaf5a3cc57fc957da771b4/jetified-gifdecoder-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/aaf04d934c31ccbec0f9048fc92324e8/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/aaf04d934c31ccbec0f9048fc92324e8/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/249f83ac7b84c60ca40aca0d14683fb9/jetified-butterknife-runtime-10.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/249f83ac7b84c60ca40aca0d14683fb9/jetified-butterknife-runtime-10.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0a7bc6528ae9409a6ccd7b32bde1bed6/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0a7bc6528ae9409a6ccd7b32bde1bed6/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d5d9181836bf801254e0f8cf88e26ae8/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d5d9181836bf801254e0f8cf88e26ae8/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/9a3b135441f600865089d24fce1af520/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/9a3b135441f600865089d24fce1af520/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/086de5dd0791671ad6b28881c8ce2fd1/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/086de5dd0791671ad6b28881c8ce2fd1/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/99773c097ffeae2d8713de833e077db3/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/99773c097ffeae2d8713de833e077db3/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/207ada2cf927836f882d38e3e07dc977/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/207ada2cf927836f882d38e3e07dc977/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d9d643a4a23edc2636eb9fd43b95643c/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d9d643a4a23edc2636eb9fd43b95643c/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:22:5-24:41
+MERGED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/5e1956c6d65eb194afdbd7e43aa5477e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/5e1956c6d65eb194afdbd7e43aa5477e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/76091e2c7276f8c6544422f66ec8fdee/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/76091e2c7276f8c6544422f66ec8fdee/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d5044c02453c72bd6c2eaf084e8861e3/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/d5044c02453c72bd6c2eaf084e8861e3/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8532f9065ec540736daa82b51abb05c8/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8532f9065ec540736daa82b51abb05c8/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/1839e51c07be03d5858b07957f50b153/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/1839e51c07be03d5858b07957f50b153/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/4178c8edaa74fbc26e5576d917e16903/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/4178c8edaa74fbc26e5576d917e16903/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/3b466be4e4b513710334bfe1ede4c263/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/3b466be4e4b513710334bfe1ede4c263/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/1e5eac7cb0bb947d6c5b893a739680f6/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/1e5eac7cb0bb947d6c5b893a739680f6/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/a67b0e20c741399d646fff138798c475/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/a67b0e20c741399d646fff138798c475/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/afcafb657e07cec2ef464c933bb0494b/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/afcafb657e07cec2ef464c933bb0494b/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/535a7896826605575aa08cb6c89cbb06/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/535a7896826605575aa08cb6c89cbb06/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/4411d39d22e9cee11c77a628610d2b58/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/4411d39d22e9cee11c77a628610d2b58/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/9724fa9a7787224297a490fb0b75079e/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/9724fa9a7787224297a490fb0b75079e/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/14bb2190ad2f22259da52ae5987c9666/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/14bb2190ad2f22259da52ae5987c9666/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml
+INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.github.afollestad.material-dialogs:core:0.9.6.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/f2eccc6522868cf53becd3499f67d9b2/jetified-core-0.9.6.0/AndroidManifest.xml:11:9-72
+	android:targetSdkVersion
+		INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:314:7-316:55
+	android:resource
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:316:9-52
+	android:name
+		ADDED from /Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/src/main/AndroidManifest.xml:315:9-59
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:15:5-98
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:15:22-95
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:16:5-94
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:16:22-91
+service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:20:13-132
+service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
+ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:23:13-127
+service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/0bd3a95991683eea44d0c87dc24b9d11/jetified-library-3.2.4/AndroidManifest.xml:26:13-120
+activity#com.tbruyelle.rxpermissions.ShadowActivity
+ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/b10e95f5ef2b7b1ad6ad5e7291b61821/jetified-rxpermissions-0.4.2/AndroidManifest.xml:11:9-14:75
+	android:launchMode
+		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/b10e95f5ef2b7b1ad6ad5e7291b61821/jetified-rxpermissions-0.4.2/AndroidManifest.xml:13:13-43
+	android:theme
+		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/b10e95f5ef2b7b1ad6ad5e7291b61821/jetified-rxpermissions-0.4.2/AndroidManifest.xml:14:13-72
+	android:name
+		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/b10e95f5ef2b7b1ad6ad5e7291b61821/jetified-rxpermissions-0.4.2/AndroidManifest.xml:12:13-70
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8af0944acee78f11452c9500e70ecb35/jetified-play-services-maps-9.0.2/AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8af0944acee78f11452c9500e70ecb35/jetified-play-services-maps-9.0.2/AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/8af0944acee78f11452c9500e70ecb35/jetified-play-services-maps-9.0.2/AndroidManifest.xml:24:8-31
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e47e66b843d87bfdc999e3666e733d76/jetified-play-services-base-9.0.2/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e47e66b843d87bfdc999e3666e733d76/jetified-play-services-base-9.0.2/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e47e66b843d87bfdc999e3666e733d76/jetified-play-services-base-9.0.2/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/e47e66b843d87bfdc999e3666e733d76/jetified-play-services-base-9.0.2/AndroidManifest.xml:20:19-85
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/724e7f7c8b4dd0bd9476750aa2c64e84/jetified-firebase-common-9.0.2/AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/724e7f7c8b4dd0bd9476750aa2c64e84/jetified-firebase-common-9.0.2/AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/724e7f7c8b4dd0bd9476750aa2c64e84/jetified-firebase-common-9.0.2/AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/724e7f7c8b4dd0bd9476750aa2c64e84/jetified-firebase-common-9.0.2/AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.0.2] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/724e7f7c8b4dd0bd9476750aa2c64e84/jetified-firebase-common-9.0.2/AndroidManifest.xml:9:13-58
+service#org.acra.sender.LegacySenderService
+ADDED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:27:9-31:39
+	android:process
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:31:13-36
+	android:enabled
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:29:13-63
+	android:exported
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:28:13-63
+service#org.acra.sender.JobSenderService
+ADDED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:32:9-37:39
+	android:process
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:37:13-36
+	android:enabled
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:34:13-60
+	android:exported
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:35:13-37
+	android:permission
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:36:13-69
+	android:name
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:33:13-60
+provider#org.acra.attachment.AcraContentProvider
+ADDED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:39:9-45:51
+	android:process
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:44:13-36
+	android:grantUriPermissions
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:43:13-47
+	android:authorities
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:41:13-56
+	android:exported
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:42:13-37
+	tools:replace
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:45:13-48
+	android:name
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/yehiaali/.gradle/caches/transforms-2/files-2.1/27412ef0f80407630b7ba6a7d601fdba/jetified-acra-core-5.7.0/AndroidManifest.xml:40:13-67

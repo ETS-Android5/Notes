@@ -1,0 +1,10 @@
+#Fri Feb 04 22:12:27 EET 2022
+base.2=/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/dex/alphaDebug/mergeExtDexAlphaDebug/classes2.dex
+path.2=classes2.dex
+base.1=/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/dex/alphaDebug/mergeProjectDexAlphaDebug/classes.dex
+path.1=classes.dex
+base.0=/Volumes/NanaFiles/Omni-Notes-develop/Omni-Notes/omniNotes/build/intermediates/dex/alphaDebug/mergeExtDexAlphaDebug/classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
